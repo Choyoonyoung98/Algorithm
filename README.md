@@ -2,7 +2,8 @@
 c++문법 기반의 알고리즘 예제
 
 ### 뭘 써야할까?
--데이터의 존재 유무 만 궁금할 경우 → set
+
+- 데이터의 존재 유무 만 궁금할 경우 → set
 
 - 중복 데이터를 허락할 경우 → multiset (insert, erase, find 모두 O(\log N)O(logN). 최악의 경우에도 O(\log N)O(logN))
 
