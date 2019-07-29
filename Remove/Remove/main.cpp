@@ -89,7 +89,6 @@ int main(int argc, const char * argv[]) {
     cout<<"vec2:";    print(vec2.begin(), vec2.end());
 
     
-    //
     
     return 0;
 }
