@@ -49,19 +49,19 @@ int main(int argc, const char * argv[]) {
         std::cout << "3 은 " << std::distance(vec.begin(), current) + 1
         << " 번째 원소" << std::endl;
         current++;
-        
+    }
+    current = vec.begin();
         //특정 조건으로 모든 원소를 찾고싶다면?
-        auto current = vec.begin();
         while (true) {
-            current =
-            std::find_if(current, vec.end(), [](int i) { return i % 3 == 2; });
+            current = std::find_if(current, vec.end(), [](int i) { return i % 3 == 2; });
             if (current == vec.end()) break;
             //값 호출 가능
             std::cout << "3 으로 나눈 나머지가 2 인 원소는 : " << *current << " 이다 "
             << std::endl;
             current++;
         }
-    }
+        
+
     
     return 0;
 }
