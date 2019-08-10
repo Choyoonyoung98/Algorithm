@@ -42,7 +42,7 @@ vector<int> solution2(vector<int> arr)
     return answer;
 }
 
-//정답
+//나의 정답
 vector<int> solution(vector<int> arr)
 {
     vector<int> answer = arr;
