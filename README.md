@@ -17,7 +17,7 @@ c++문법 기반의 알고리즘 예제
 
 👉🏻Basic
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Input_Output/Input_Output/main.cpp">입/출력</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Function_Call/Function_Call/main.cpp>함수 호출<a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Function_Call/Function_Call/main.cpp">함수 호출<a>
 
 👉🏻Vector
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Vector_1/Vector_1/main.cpp">벡터 기본1</a>
@@ -40,7 +40,7 @@ c++문법 기반의 알고리즘 예제
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Stack/Stack/main.cpp">Stack</a>
 
 👉🏻Queue
--<a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Queue/Queue/main.cpp">Queue</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Queue/Queue/main.cpp">Queue</a>
 
 
 
