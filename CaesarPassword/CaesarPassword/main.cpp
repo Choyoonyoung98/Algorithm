@@ -5,8 +5,7 @@
 //  Created by 조윤영 on 20/08/2019.
 //  Copyright © 2019 조윤영. All rights reserved.
 //*********************************************
-//대문자,소문자 전환 라이브러리
-//#include <cctype>
+//replace함수
 //*********************************************
 
 #include <string>
@@ -20,8 +19,7 @@ using namespace std;
 string solution(string s, int n) {
     string answer = s;
     vector<string> bigVec{"A","B","C","D","E","F","G","H","I","J","K","L","M","N","O","P","Q","R","S","T","U","V","W","X","Y","Z"};
-    vector<string> smallVec{"a","b","c","d","e","f"
-        ,"g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
+    vector<string> smallVec{"a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"};
 
     for(int i=0; i<s.length(); i++) {
         //대문자일 경우,
@@ -64,7 +62,7 @@ int main(int argc, const char * argv[]) {
     string s = "a H b";
     int n = 4;
     cout<<solution(s, n)<<endl;
-    cout<<solution(s,n)<<endl;
+    cout<<solution2(s,n)<<endl;
     return 0;
 }
 
