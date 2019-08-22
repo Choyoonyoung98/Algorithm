@@ -22,6 +22,9 @@ c++문법 기반의 알고리즘 예제
 👉🏻Basic
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Input_Output/Input_Output/main.cpp">입/출력</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Function_Call/Function_Call/main.cpp">함수 호출<a>
+  
+👉String
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/String_Chars/String_Chars/main.cpp">string 기본 함수</a>
 
 👉🏻Vector
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Vector_1/Vector_1/main.cpp">벡터 기본1</a>
