@@ -20,35 +20,35 @@ c++문법 기반의 알고리즘 예제
 #### 😐기본 문법
 
 👉🏻Basic
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Input_Output/Input_Output/main.cpp">입/출력</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Function_Call/Function_Call/main.cpp">함수 호출<a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Input_Output/Input_Output/main.cpp">입/출력</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Function_Call/Function_Call/main.cpp">함수 호출<a>
   
 👉🏻String
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/String_Chars/String_Chars/main.cpp">string 기본 함수</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Type/Type/main.cpp">형 변환</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/String_Chars/String_Chars/main.cpp">string 기본 함수</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Type/Type/main.cpp">형 변환</a>
 
 👉🏻Vector
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Vector_1/Vector_1/main.cpp">벡터 기본1</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Vector_2/Vector_2/main.cpp">벡터 기본2</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Find/Find/main.cpp">Find</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Remove/Remove/main.cpp">Remove, lambda,transform</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Unique/Unique/main.cpp"> Unique</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Sort/Sort/main.cpp">Sort</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Vector_1/Vector_1/main.cpp">벡터 기본1</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Vector_2/Vector_2/main.cpp">벡터 기본2</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Find/Find/main.cpp">Find</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Remove/Remove/main.cpp">Remove, lambda,transform</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Unique/Unique/main.cpp"> Unique</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Sort/Sort/main.cpp">Sort</a>
 
 👉🏻Map / Set
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Set/Set/main.cpp">Set</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Map/Map/main.cpp">Map</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/MultiSet_Map/MultiSet_Map/main.cpp">MultiSet, MultiMap</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/UnorderedMap_Set/UnorderedMap_Set/main.cpp"> UnorderedSet, UnOrderedMap</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Set/Set/main.cpp">Set</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Map/Map/main.cpp">Map</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/MultiSet_Map/MultiSet_Map/main.cpp">MultiSet, MultiMap</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/UnorderedMap_Set/UnorderedMap_Set/main.cpp"> UnorderedSet, UnOrderedMap</a>
 
 👉🏻Linked List
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/LinkedList/LinkedList/main.cpp">Linked List</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/LinkedList/LinkedList/main.cpp">Linked List</a>
 
 👉🏻Stack
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Stack/Stack/main.cpp">Stack</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Stack/Stack/main.cpp">Stack</a>
 
 👉🏻Queue
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Queue/Queue/main.cpp">Queue</a>
+- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Queue/Queue/main.cpp">Queue</a>
 
 
 
