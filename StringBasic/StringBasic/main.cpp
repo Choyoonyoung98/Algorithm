@@ -25,10 +25,6 @@ bool solution(string s) {
     }else{
         answer = false;
     }
-        //이건 왜 안될까
-//        if(atoi(s.c_str()) !=0) {
-//            answer = true;
-//        }
 
     return answer;
 }
