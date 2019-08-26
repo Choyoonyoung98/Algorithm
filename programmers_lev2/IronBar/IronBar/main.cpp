@@ -33,7 +33,23 @@ string ReplaceAll(string &str, const string& from, const string& to) {
     }
     return str;
 }
-
+//보다 멋진 풀이
+int solution3(string arrangement) {
+    int answer = 0;
+    stack<char> s;
+    
+    for(int i=0; i< arrangement.length(); i++) {
+        if(arrangement[i] == '(') s.push(arrangement[i]);
+        else{
+            s.pop();
+            if(arrangement[i-1] == '(') answer +=s.size();
+            else answer++;
+            
+        }
+    }
+    
+    return answer;
+}
 //간단하게 생각해보자. 다른 사람의 풀이
 int solution2(string arrangement) {
     int answer = 0;
@@ -96,5 +112,6 @@ int solution(string arrangement) {
 int main(int argc, const char * argv[]) {
     cout<<solution("()(((()())(())()))(())")<<endl;
     cout<<solution2("()(((()())(())()))(())");
+    //3+3+1+3+1+2+1+1+1+1
     return 0;
 }
