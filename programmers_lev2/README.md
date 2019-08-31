@@ -14,3 +14,6 @@
 👉🏻이해하지 못한 문제(다시 봐야함)
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/programmers_lev2/IronBar/IronBar/main.cpp">다리를 지나는 트럭<a>
   
+👉🏻미해결
+- 
+  
