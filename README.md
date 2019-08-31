@@ -17,6 +17,24 @@ c++문법 기반의 알고리즘 예제
 
 - 속도가 매우매우 중요해서 최적화를 해야하는 경우 → unordered_set, unordered_map (insert, erase, find 모두 O(1)O(1). 최악의 경우엔 O(N)O(N) 그러므로 해시함수와 상자 개수를 잘 설정해야 한다!)
 
+#### 🤓라이브러리
+
+✍🏻 cmath <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/cmath/cmath/main.cpp">GO</a>
+  - ceil: 올림
+  - floor: 내림
+  - abs: 절대값 반환
+  - pow: 제곱값 반환
+  - sqrt: 제곱근 반환
+  
+✍🏻 algorithm
+  - sort
+  - remove
+  - lambda
+  - transform
+  - find
+  
+<hr/>
+
 #### 😐기본 문법
 
 👉🏻Basic
