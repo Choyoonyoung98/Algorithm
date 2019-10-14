@@ -1,6 +1,6 @@
 ### SELECT
 
-![table_animal_ins](../table_animal_ins.png)
+![table_animal_ins](../img/table_animal_ins.png)
 
 ✍🏻 [모든 레코드 조회하기] - SELECT *
 :동물 보호소에 들어온 모든 동물의 정보를 ANIMAL_ID순으로 조회하는 SQL문을 작성해주세요.
