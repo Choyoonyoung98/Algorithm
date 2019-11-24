@@ -22,30 +22,36 @@ using namespace std;
 
 vector<int> solution(vector<int> answers) {
     vector<int> answer;
-    vector<int> a1 {1,2,3,4,5};
-    vector<int> a2 {2,1,2,3,2,4,2,5};
-    vector<int> a3 {3,3,1,1,2,2,4,4,5,5};
     
-    int cnt1 =0;
+    vector<int> a1 = {1,2,3,4,5};
+    vector<int> a2 = {2,1,2,3,2,4,2,5};
+    vector<int> a3 = {3,3,1,1,2,2,4,4,5,5};
+    
+    int cnt1 = 0;
     int cnt2 = 0;
     int cnt3 = 0;
+    int maxCnt = 0;
+    int tempMax = 0;
     
-    int size = answers.size();
-    for(int i=0; i<size; i++) {
-        int i1 = i%5;
-        int i2 = i%8;
-        int i3 = i%10;
-        
-        if(answers[i] == a1[i1]) cnt1++;
-        if(answers[i] == a2[i2]) cnt2++;
-        if(answers[i] == a3[i3]) cnt3++;
-        
+    vector<int> cnts;
+    
+    for(int i=0; i<answers.size(); i++) {
+        if(a1[i%a1.size()] == answers[i]) cnt1++;
+        if(a2[i%a2.size()] == answers[i]) cnt2++;
+        if(a3[i%a3.size()] == answers[i]) cnt3++;
     }
-    int maxCount = max(cnt1, max(cnt2, cnt3));
     
-    if(maxCount == cnt1) answer.push_back(1);
-    if(maxCount == cnt2) answer.push_back(2);
-    if(maxCount == cnt3) answer.push_back(3);
+    cnts.push_back(cnt1);
+    cnts.push_back(cnt2);
+    cnts.push_back(cnt3);
+    
+    maxCnt = cnts[0];
+    
+    for(int i=0; i<cnts.size(); i++)maxCnt = max(maxCnt, cnts[i]);
+    
+    
+    for(int i=0; i<cnts.size(); i++) if(cnts[i] == maxCnt)answer.push_back(i+1);
+    
     
     return answer;
 }
