@@ -27,6 +27,8 @@ c++문법 기반의 알고리즘 예제
   - abs: 절대값 반환
   - pow: 제곱값 반환
   - sqrt: 제곱근 반환
+  - max: 최대값
+  - max: 
   
 ✍🏻 algorithm
   - sort
