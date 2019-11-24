@@ -28,7 +28,7 @@ c++문법 기반의 알고리즘 예제
   - pow: 제곱값 반환
   - sqrt: 제곱근 반환
   - max: 최대값
-  - max: 
+  - max: 최소값
   
 ✍🏻 algorithm
   - sort
