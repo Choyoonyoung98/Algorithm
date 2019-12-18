@@ -13,6 +13,8 @@
 #include <queue>
 
 using namespace std;
+//큐를 활용할 때 생각해야할 문제
+//큐 = 현재 활동하고 있는 여러 개의 상태를 쌓을 때 사용!
 
 //큐를 사용한 효율적인 풀이
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
