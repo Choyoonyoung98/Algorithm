@@ -91,6 +91,51 @@ vector<int> solution2(vector<int> progresses, vector<int> speeds) {
     return answer;
 }
 
+//20191218 큐로 푼 풀이
+vector<int> solution3(vector<int> progresses, vector<int> speeds) {
+    vector<int> answer;
+    queue<int> q;
+    vector<int> temp;
+    int left = 0;
+    int day = 0;
+    int cnt = 0;
+    
+    //1:각 작업 당 걸리는 시간 계산 후 큐에 넣는다.
+    for(int i=0; i<progresses.size(); i++) {
+        left = 100-progresses[i];
+        if(left%speeds[i] ==0){
+            q.push(left/speeds[i]);
+            cout<<"{"<<left/speeds[i]<<"}";
+        }else{
+            q.push((left/speeds[i])+1);
+            cout<<"{"<<(left/speeds[i])+1<<"}";
+        }
+    }
+    
+    while(!q.empty()) {
+        if(day == 0) {
+            day+=q.front();
+            q.pop();
+            cnt++;
+            
+        }else if(day <q.front()){//시간이 경과된 것에 비해 아직 작업이 끝나지 않았을 경우
+            day+=(q.front()-day);
+            q.pop();
+            answer.push_back(cnt);
+            
+            cnt = 0;
+            cnt++;
+            
+        }else{//작업이 완료되었을 경우 다음 작업물로 이동.
+            q.pop();
+            cnt++;
+        }
+    }
+    answer.push_back(cnt);
+    
+    return answer;
+}
+
 int main(int argc, const char * argv[]) {
     vector<int> progresses {93,30,55};
     vector<int> speeds{1,30,5};
