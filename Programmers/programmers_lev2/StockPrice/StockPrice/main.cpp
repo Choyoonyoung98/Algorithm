@@ -43,6 +43,9 @@ vector<int> solution(vector<int> prices) {
 }
 
 //스택을 이용한 두 번째 풀이(*)
+//순차적으로 접근하고 순차적으로 답을 구해야하는 경우에는 무조건 stack 의심해보기
+
+//14353
 vector<int> solution2(vector<int> prices) {
     vector<int> answer;
     stack<int> s;
