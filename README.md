@@ -74,4 +74,4 @@ c++문법 기반의 알고리즘 예제
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Priority_Queue/Priority_Queue/main.cpp">Prority_Queue</a>
 
 
-1
+1 2
