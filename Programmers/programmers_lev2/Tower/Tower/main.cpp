@@ -4,10 +4,7 @@
 //
 //  Created by 조윤영 on 24/08/2019.
 //  Copyright © 2019 조윤영. All rights reserved.
-/*
- (문제)
- 수평 직선에 탑 N대를 세웠습니다. 모든 탑의 꼭대기에는 신호를 송/수신하는 장치를 설치했습니다. 발사한 신호는 신호를 보낸 탑보다 높은 탑에서만 수신합니다. 또한, 한 번 수신된 신호는 다른 탑으로 송신되지 않습니다.
- */
+//https://programmers.co.kr/learn/courses/30/lessons/42588
 //
 
 #include <string>
@@ -69,11 +66,55 @@ vector<int> solution2(vector<int> heights) {
     return answer;
 }
 
+//stack 활용2 (2020/04/26)
+
+using namespace std;
+
+struct Info {
+    int index;
+    int height;
+    
+    Info(int _index, int _height) {
+        index = _index;
+        height = _height;
+    };
+};
+
+vector<int> solution3(vector<int> heights) {
+    vector<int> answer(heights.size(), 0);
+    stack<Info> towers;
+    
+    
+    for(int i= heights.size()-1; i>=0; i--) {
+        
+        if(!towers.empty()) {
+            int prevTowerHeight = towers.top().height;
+            int prevTowerIndex = towers.top().index;
+                   
+            if(prevTowerHeight < heights[i]) {
+                while(prevTowerHeight < heights[i]) {
+                    answer[prevTowerIndex] = i+1;
+                    towers.pop();
+                    
+                    if(towers.empty())break;
+                    prevTowerHeight = towers.top().height;
+                    prevTowerIndex = towers.top().index;
+                }
+                
+            }
+        }
+       
+        towers.push(Info(i, heights[i]));
+    }
+    return answer;
+}
+
 int main(int argc, const char * argv[]) {
     vector<int> heights{6,9,5,7,4};
     
     solution(heights);
     solution2(heights);
+    solution3(heights);
     
     return 0;
 }
