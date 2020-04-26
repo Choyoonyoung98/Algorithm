@@ -4,8 +4,8 @@
 
 👉🏻Prob
 - 주식 가격
--> 문제:
--> 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>
+→ 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42588">GO</a>
+→ 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>
 
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Tower/Tower/main.cpp">탑(2)-스택</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp">124 나라의 숫자</a>
