@@ -3,7 +3,10 @@
 #### 😐분류
 
 👉🏻Prob
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp"> 주식 가격(2)-완전탐색</a>
+- 주식 가격
+-> 문제:
+-> 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>
+
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Tower/Tower/main.cpp">탑(2)-스택</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp">124 나라의 숫자</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/programmers_lev2/FunctionDev/FunctionDev/main.cpp">기능 개발<a>
