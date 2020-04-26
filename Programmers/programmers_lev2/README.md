@@ -1,18 +1,15 @@
 # 프로그래머스 Lv2
 
-#### 😐분류
-
-👉🏻Prob
-- 주식 가격  
+#### 주식 가격  
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42584">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>  
 → 유형:완전탐색  
 → 풀이 횟수:2
 
-- 탑
+#### 탑  
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42588">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Tower/Tower/main.cpp">GO</a>  
-→ 유형: 스택(stack)
+→ 유형: 스택(stack)  
 → 풀이 횟수:2
 
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp">124 나라의 숫자</a>
