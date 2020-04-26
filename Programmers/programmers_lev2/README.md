@@ -3,7 +3,7 @@
 #### 😐분류
 
 👉🏻Prob
-- 주식 가격
+- 주식 가격 <br/>
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42588">GO</a>
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>
 
