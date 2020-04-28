@@ -4,17 +4,7 @@
 //
 //  Created by 조윤영 on 25/08/2019.
 //  Copyright © 2019 조윤영. All rights reserved.
-/*
- (문제)
- 여러 개의 쇠막대기를 레이저로 절단하려고 합니다. 효율적인 작업을 위해서 쇠막대기를 아래에서 위로 겹쳐 놓고, 레이저를 위에서 수직으로 발사하여 쇠막대기들을 자릅니다. 쇠막대기와 레이저의 배치는 다음 조건을 만족합니다.
- - 쇠막대기는 자신보다 긴 쇠막대기 위에만 놓일 수 있습니다.
- - 쇠막대기를 다른 쇠막대기 위에 놓는 경우 완전히 포함되도록 놓되, 끝점은 겹치지 않도록 놓습니다.
- - 각 쇠막대기를 자르는 레이저는 적어도 하나 존재합니다.
- - 레이저는 어떤 쇠막대기의 양 끝점과도 겹치지 않습니다.
- */
-/**************************************************/
-//ReplaceAll 클래스: 문자열 안의 특정 문자를 교체해주는 클래스!
-/**************************************************/
+//https://programmers.co.kr/learn/courses/30/lessons/42585
 //
 
 #include <iostream>
@@ -33,6 +23,40 @@ string ReplaceAll(string &str, const string& from, const string& to) {
     }
     return str;
 }
+
+//20200427 풀이 - stack
+int solution4(string arrangement) {
+    int answer = 0;
+    stack<char> bar;
+    
+    bool possibleOfLaser = true;
+    
+    for(int i=0; i<arrangement.size(); i++) {
+        if(i == arrangement.size()-1){
+            answer+=bar.size();
+            break;
+        }
+        
+        if(arrangement[i] == '(') {
+            possibleOfLaser = true;
+            bar.push('(');
+        }else if(arrangement[i] == ')') {
+            bar.pop();
+            if(possibleOfLaser == true && bar.size() != 0) {
+                //레이저임
+                answer += bar.size();
+            }else if(possibleOfLaser != true){
+                answer +=1;
+            }
+            
+            possibleOfLaser = false;
+        }
+    }
+    
+    return answer;
+}
+
+
 //보다 멋진 풀이
 int solution3(string arrangement) {
     int answer = 0;
