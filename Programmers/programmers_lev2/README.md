@@ -15,25 +15,25 @@
 #### 스킬트리
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/49993">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/SkillTree/SkillTree/main.cpp">GO</a>  
-→ 유형: algorithm 라이브러리의 활용(find()-itr.begin(), is_sorted()) 
+→ 유형: algorithm 라이브러리의 활용(find()-itr.begin(), is_sorted())  
 → 풀이 횟수:2  
 
 #### 기능개발
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42586">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/FunctionDev/FunctionDev/main.cpp">GO</a>  
-→ 유형: 큐(Queue), 해당 기준으로부터 특정 구간까지 영향을 끼치는 
+→ 유형: 큐(Queue), 해당 기준으로부터 특정 구간까지 영향을 끼치는   
 → 풀이 횟수:2  
 
 #### 124 나라의 숫자
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/12899">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp">GO</a>  
-→ 유형: 진법
+→ 유형: 진법  
 → 풀이 횟수:2  
 
 #### 쇠 막대기
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42585">GO</a>  
 → 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/IronBar/IronBar/main.cpp">GO</a>  
-→ 유형: 진법
+→ 유형: 스택(stack)  
 → 풀이 횟수:2  
 
 
