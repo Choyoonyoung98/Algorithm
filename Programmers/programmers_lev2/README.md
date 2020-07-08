@@ -8,4 +8,4 @@
 |[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |[풀이](/FunctionDev/FunctionDev/main.cpp) |큐(Queue)    |2회 |
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) |[풀이](/124WorldNumb/124WorldNumb/main.cpp) |진법     |2회 |
 |[쇠 막대기](https://programmers.co.kr/learn/courses/30/lessons/42585) |[풀이](/IronBar/IronBar/main.cpp) |스택(stack)     |2회 |
-|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42585) |[풀이](/IronBar/IronBar/main.cpp) |큐(Proority Queue)     |2회 |) |[풀이](/IronBar/IronBar/main.cpp) |스택(stack)     |2회 |
+|[프린터](https://programmers.co.kr/learn/courses/30/lessons/42585) |[풀이](/Printer/Printer/main.cpp) |큐(Priority Queue)     |2회 |) |[풀이](/IronBar/IronBar/main.cpp) |스택(stack)     |2회 |
