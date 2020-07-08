@@ -1,9 +1,8 @@
 # 프로그래머스 Lv2
 
-| 문제 이름 | 풀이                    | 유형      | 풀이 횟수      | 
-| ---- | -------------------------- | -------------- |
-| [주식 가격](https://programmers.co.kr/learn/courses/30/lessons/42584)  | [풀이](/programmers_lev2/StockPrice/StockPrice/main.cpp) | 2회 |
-| [주식 가격](https://programmers.co.kr/learn/courses/30/lessons/42584)  | [풀이](/programmers_lev2/StockPrice/StockPrice/main.cpp) | 2회 |
+| 문제 이름                             | 풀이                                  | 유형                                  | 풀이 횟수                           |
+|:------------------------------:|:---------------------------------:|:---------------------------------:|:---------------------------------:|
+|[주식 가격](https://programmers.co.kr/learn/courses/30/lessons/42584) |[풀이](/programmers_lev2/StockPrice/StockPrice/main.cpp) |스택 |2회 |
 
 
 #### 탑  
