@@ -1,10 +1,10 @@
 # 프로그래머스 Lv2
 
-#### 주식 가격  
-→ 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42584">GO</a>  
-→ 풀이: <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StockPrice/StockPrice/main.cpp">GO</a>  
-→ 유형:완전탐색  
-→ 풀이 횟수:2
+| 문제 이름 | 풀이                    | 유형      | 풀이 횟수      | 
+| ---- | -------------------------- | -------------- |
+| [주식 가격](https://programmers.co.kr/learn/courses/30/lessons/42584)  | [풀이](/programmers_lev2/StockPrice/StockPrice/main.cpp) | 2회 |
+| [주식 가격](https://programmers.co.kr/learn/courses/30/lessons/42584)  | [풀이](/programmers_lev2/StockPrice/StockPrice/main.cpp) | 2회 |
+
 
 #### 탑  
 → 문제: <a href="https://programmers.co.kr/learn/courses/30/lessons/42588">GO</a>  
