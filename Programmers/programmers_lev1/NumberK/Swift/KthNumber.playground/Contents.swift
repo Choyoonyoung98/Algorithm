@@ -11,6 +11,7 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
         let position:Int = command[2] - 1
 
         var temp_array = [Int]()
+
         for var i in startNumb...endNumb {
             temp_array.append(array[i])
             
@@ -23,6 +24,7 @@ func solution(_ array:[Int], _ commands:[[Int]]) -> [Int] {
 }
 
 func solution2(_ array:[Int], _ commands:[[Int]]) -> [Int] {
+    array.
     return commands.map({(key) in
         return array[(key[0]-1)...(key[1]-1)].sorted()[key[2]-1]
     })

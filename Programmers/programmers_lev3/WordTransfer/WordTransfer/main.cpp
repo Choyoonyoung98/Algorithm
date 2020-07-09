@@ -1,75 +1,109 @@
 //
 //  main.cpp
-//  WordTransfer
+//  TransferWord
 //
-//  Created by 조윤영 on 29/12/2019.
-//  Copyright © 2019 조윤영. All rights reserved.
+//  Created by 조윤영 on 2020/07/08.
+//  Copyright © 2020 조윤영. All rights reserved.
 //
+//https://programmers.co.kr/learn/courses/30/lessons/43163
 
 #include <iostream>
 #include <string>
 #include <vector>
-#include <cmath>
-#define MAX_SIZE 51
+#include <algorithm>
+
+#include <queue>
+
+#define MAX_SIZE 1000000
+
 using namespace std;
 
-int cnt = 100;
-
-vector<bool> visited(MAX_SIZE, false);
-void dfs(string target, vector<string> &words, int index, int depth) {
-    int wordSize = words[0].size();
-    int matchCnt = 0;
+struct WordInfo {
+    int index;
+    string word;
+    int cnt;
     
-    if(words[index] == target) {
-        
-        cnt = min(cnt, depth);
-        return;
-    }
+    WordInfo(int _index, string _word, int _cnt) {
+        index = _index;
+        word = _word;
+        cnt = _cnt;
+    };
+};
 
+int answer = MAX_SIZE;
+vector<bool> visited;
+queue<WordInfo> q;
+
+
+
+void dfs(string currentWord, string target, vector<string> words, int cnt) {
+    if(currentWord == target) {
+        answer = min(answer, cnt);
+    }
     
     for(int i=0; i<words.size(); i++) {
-        matchCnt = 0;
-        if(visited[i] !=true) {
-            for(int j=0; j<wordSize; j++) {
-                if (words[index][j] == words[i][j]) matchCnt++;
+        if(!visited[i]) {
+            int diff = 0;
+            for(int j=0; j<words[i].size(); j++) {
+                if(words[i][j] != currentWord[j]) diff++;
+                if(diff >1) break;
             }
-            if(matchCnt == wordSize-1) {
-                cout<<words[i]<<endl;
-                visited[index] = true;
-                dfs(target, words, i, depth+1);
-                visited[i] = false;//중요중요
-                
+            if(diff == 1) {
+                visited[i] = true;
+                dfs(words[i], target, words, cnt+1);
+                visited[i] = false;
             }
         }
     }
-    
-    
 }
-int solution(string begin, string target, vector<string> words) {
-    int answer = 0;
-    int wordSize = words[0].size();
-    
-    int matchCnt = 0;
-    for(int i=0; i<words.size(); i++) {
-        matchCnt = 0;
-        if(visited[i] != true) {
-            for(int j=0; j<wordSize; j++) {
-                if (begin[j] == words[i][j]) matchCnt++;
-            }
-            if ( matchCnt == wordSize - 1) {
-                dfs(target, words, i, 1);
-                
+
+void bfs(string target, vector<string> words) {
+    while(!q.empty()) {
+        int index = q.front().index;
+        string word = q.front().word;
+        int cnt = q.front().cnt;
+        q.pop();
+        visited[index] = true;
+        
+        if(word == target) {
+            answer = min(answer, cnt);
+            continue;
+        }
+        
+        for(int i=0; i<words.size(); i++) {
+            if(!visited[i]) {
+                int diff = 0;
+                for(int j=0; j<words[i].size(); j++) {
+                    if(words[i][j] != word[j]) diff++;
+                    if(diff >1) break;
+                }
+                if(diff == 1) {
+                    q.push(WordInfo(i, words[i], cnt+1));
+                }
             }
         }
     }
+}
+
+int solution(string begin, string target, vector<string> words) {
+    visited.assign(words.size(), false);
     
-    if(cnt == 100) answer = 0;
-    else answer = cnt;
+    //dfs를 이용한 풀이
+    dfs(begin, target, words, 0);
+    
+    //bfs를 이용한 풀이
+    q.push(WordInfo(MAX_SIZE, begin, 0));
+    bfs(target, words);
+    
+    if(answer == MAX_SIZE) return 0;
     return answer;
 }
 
 int main(int argc, const char * argv[]) {
-    vector<string> words = {"hot", "dot", "dog", "lot", "log", "cog"};
-    cout<<solution("hit", "cog", words);
+    vector<string> words = {"hot","dot","dog","lot","log","cog"};
+    string begin = "hit";
+    string target = "cog";
+    
+    cout<<solution(begin, target, words);
     return 0;
 }
