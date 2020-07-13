@@ -9,5 +9,5 @@
 |[기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/FunctionDev/FunctionDev/main.cpp) |큐(Queue)    |2회 |
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp) |진법     |2회 |
 |[프린터](https://programmers.co.kr/learn/courses/30/lessons/42585) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Printer/Printer/main.cpp) |큐(Priority Queue)     |2회 |
-|[다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Truck/Truck/main.cpp) |큐(Queue)   |2회 |
+|[(*)다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Truck/Truck/main.cpp) |큐(Queue)   |2회 |
 
