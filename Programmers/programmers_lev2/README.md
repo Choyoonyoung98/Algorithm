@@ -10,4 +10,5 @@
 |[124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/124WorldNumb/124WorldNumb/main.cpp) |진법     |2회 |
 |[프린터](https://programmers.co.kr/learn/courses/30/lessons/42585) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Printer/Printer/main.cpp) |큐(Priority Queue)     |2회 |
 |[(*)다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Truck/Truck/main.cpp) |큐(Queue)   |2회 |
-
+|[어피치 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/ColoringBook/ColoringBook/main.cpp) |DFS   |2회 |
+|[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StringCompression/StringCompression/main.cpp) |문자열   |2회 |
