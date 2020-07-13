@@ -17,8 +17,8 @@
 
 using namespace std;
 
+//*
 int solution(string s) {
-    int answer = 0;
     int answerSize = MAX_SIZE;
     
     if(s.length() == 1)return 1;
@@ -31,19 +31,19 @@ int solution(string s) {
         for(int j=i; j<s.length(); j+=i) {//처음부터 비교한다 단위크기만큼 점프하면서
             nextPiece = s.substr(j,i);//j에서 i 만큼 자른다.
             
-            if(!(piece.compare(nextPiece)))cnt++; //비교 문자가 같으면 count 증가
-            else {
-                if(cnt == 1) {//비교 문자가 같지 않으면? aa ab
+            if(piece.compare(nextPiece) == 0) cnt++; //비교 문자가 같으면 count 증가
+            else {//비교 문자가 같지 않으면? aa ab
+                if(cnt == 1) { //첫 번째 문자라면
                     answer += piece;
                     piece = nextPiece;
-                }else {//cnt가 1보다 클때
+                }else {//반복이 끝났음을 뜻함.
                     answer += to_string(cnt) + piece;
                     piece = nextPiece;
                     cnt = 1;
                 }
             }
             
-            if(j+i >= s.length()) {
+            if(j+i >= s.length()) {//*
                 //aabbccd와 같은 상황에서 substr 기준을 넘어설때!
                 //현재 남은 문자가 잘라야 하는 문자의 길이보다 작을때
                 
@@ -51,7 +51,7 @@ int solution(string s) {
                     answer += to_string(cnt) + piece;
                     break;
                 }else {
-                    answer += s.substr(j);
+                    answer += s.substr(j); //j부터 끝까지 덧붙인다.
                     break;
                 }
             }
@@ -59,7 +59,6 @@ int solution(string s) {
         
         int newAnswerLength = answer.size();
         answerSize = min(answerSize, newAnswerLength);
-        
     }
     
     return answerSize;
