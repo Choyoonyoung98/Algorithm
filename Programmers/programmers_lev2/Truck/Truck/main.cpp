@@ -68,7 +68,7 @@ int solution2(int bridge_length, int weight, vector<int> truck_weights) {
 }
 
 
-//큐를 사용한 효율적인 풀이
+//큐를 사용한 효율적인 풀이(*)
 int solution(int bridge_length, int weight, vector<int> truck_weights) {
     queue<int> q;
     
@@ -78,7 +78,8 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
         
         while(true) {
             if (q.size() == bridge_length) { //다리 길이만큼 트럭이 다리에 올라와 있다면,
-                sum-=q.front(); q.pop(); //가장 먼저 오른 트럭 지나가게 하기
+                sum-=q.front();
+                q.pop(); //가장 먼저 오른 트럭 지나가게 하기
                 
             }else{
                 if(sum +d >weight) {//가능한 무게를 초과할 경우
@@ -97,7 +98,12 @@ int solution(int bridge_length, int weight, vector<int> truck_weights) {
     return cnt + bridge_length;
 }
 int main(int argc, const char * argv[]) {
-    vector<int> t_weight{10,10,10,10,10,10,10,10,10,10};
-    cout<<solution(100,100,t_weight);
+        vector<int> t_weight{7,4,5,6};
+        cout<<solution(2,10,t_weight);
+
+//    vector<int> t_weight{10,10,10,10,10,10,10,10,10,10};
+//    cout<<solution3(100,100,t_weight);
+//    vector<int> t_weight{10,10,10,10,10,10,10,10,10,10};
+//    cout<<solution3(100,100,t_weight);
     return 0;
 }
