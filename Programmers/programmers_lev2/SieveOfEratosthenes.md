@@ -50,7 +50,7 @@
     //소수가 아닌 숫자 체크
     for(int i=2; i<=num; i++) {//나누는 값:i
       if(arr[i]!= 0) {
-        for(int j=i+i; j<=num; j+=i) arr[j] = 0;
+        for(int j=i*2; j<=num; j+=i) arr[j] = 0;
        }
      }
      
@@ -68,7 +68,7 @@
  //소수가 아닌 숫자 체크
  for(int i=2; i<=num; i++) {//나누는 값:i
    if(arr[i]!= 0) {
-     for(int j=i+i; j<=num; j+=i) arr[j] = 0;
+     for(int j=i*2; j<=num; j+=i) arr[j] = 0;
     }
   }
  ```
