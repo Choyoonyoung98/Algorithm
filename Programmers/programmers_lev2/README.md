@@ -12,3 +12,4 @@
 |[(*)다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/Truck/Truck/main.cpp) |큐(Queue)   |2회 |
 |[어피치 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/ColoringBook/ColoringBook/main.cpp) |DFS   |2회 |
 |[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StringCompression/StringCompression/main.cpp) |문자열   |2회 |
+|[(*)조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/JoyStick/JoyStick/main.cpp) |탐욕(Greedy)   |2회 |
