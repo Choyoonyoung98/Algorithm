@@ -5,6 +5,7 @@
 //  Created by 조윤영 on 18/01/2020.
 //  Copyright © 2020 조윤영. All rights reserved.
 //
+//(*)
 
 #include <iostream>
 #include <string>
@@ -13,15 +14,17 @@
 
 using namespace std;
 
-//Hash를 활용한 풀이
+//Hash를 활용한 풀이(****)
 bool solution(vector<string> phone_book) {
     bool answer = true;
     
-    sort(phone_book.begin(), phone_book.end());
+    sort(phone_book.begin(), phone_book.end()); //1. 정렬
     
     for(int i=0; i<phone_book.size()-1; i++) {
-        if(phone_book[i] == phone_book[i+1].substr(0, phone_book[i].size()))return false;
+        //접두사니깐 앞부분만 확인하면 된다.
+        if(phone_book[i] == phone_book[i+1].substr(0, phone_book[i].size())) return false;
     }
+    
     return answer;
 }
 
@@ -53,7 +56,6 @@ bool solution2(vector<string> phone_book) {
 
     return true;
 }
-
 int main(int argc, const char * argv[]) {
     vector<string> phone_book {"119","97674223","1195524421"};
     cout<<solution(phone_book);
