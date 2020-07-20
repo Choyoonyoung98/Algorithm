@@ -14,5 +14,5 @@
 |[문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/StringCompression/StringCompression/main.cpp) |문자열   |2회 |
 |[(*)조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/JoyStick/JoyStick/main.cpp) |탐욕(Greedy)   |2회 |
 |[괄호 반환](https://programmers.co.kr/learn/courses/30/lessons/60058) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/TransferParenthesis/TransferParenthesis/main.cpp) |문자열   |2회 |
-|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/FindPrimeNumb/FindPrimeNumb/main.cpp) |에라스토네스의     |2회 |
+|[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/FindPrimeNumb/FindPrimeNumb/main.cpp) |에라스토네스의 체      |2회 |
 
