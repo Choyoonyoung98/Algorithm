@@ -16,4 +16,5 @@
 |[괄호 반환](https://programmers.co.kr/learn/courses/30/lessons/60058) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/TransferParenthesis/TransferParenthesis/main.cpp) |문자열   |2회 |
 |[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/FindPrimeNumb/FindPrimeNumb/main.cpp) |에라스토네스의 체      |2회 |
 |[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/PhoneNumbList/PhoneNumbList/main.cpp) |문자열 비교(정렬)*      |2회 |
+|[숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841) |[풀이](https://github.com/Choyoonyoung98/Algorithm/blob/master/Programmers/programmers_lev2/NumberBaseBall/NumberBaseBall/main.cpp) |완전 *      |2회 |
 
