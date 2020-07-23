@@ -17,4 +17,5 @@
 |[소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) |[풀이](FindPrimeNumb/FindPrimeNumb/main.cpp) |에라스토네스의 체      |2회 |
 |[전화번호 목록](https://programmers.co.kr/learn/courses/30/lessons/42577) |[풀이](PhoneNumbList/PhoneNumbList/main.cpp) |문자열 비교(정렬)*      |2회 |
 |[숫자 야구](https://programmers.co.kr/learn/courses/30/lessons/42841) |[풀이](NumbBaseball/NumbBaseball/main.cpp) |완전 탐색*      |2회 |
+|[(*)구명 보트](https://programmers.co.kr/learn/courses/30/lessons/42885) |[풀이](Lifeboat/Lifeboat/main.cpp) |탐욕(Greedy)-정렬 후 양옆에서 좁혀오기*      |2회 |
 
