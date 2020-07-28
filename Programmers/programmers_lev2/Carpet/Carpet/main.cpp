@@ -5,6 +5,8 @@
 //  Created by 조윤영 on 27/11/2019.
 //  Copyright © 2019 조윤영. All rights reserved.
 //
+//https://programmers.co.kr/learn/courses/30/lessons/42842
+//
 
 #include <iostream>
 #include <string>
@@ -12,6 +14,29 @@
 #include <cmath>
 
 using namespace std;
+
+//2020.07.20
+vector<int> solution2(int brown, int yellow) {
+    vector<int> answer;
+    
+    int area = brown + yellow;
+    int height = 0;
+    int maxWidth = (brown-2)/2;
+    
+    for(int width=3; width<maxWidth+1; width++) {
+        
+        height = (brown - width *2)/2+2;
+        int yellowCnt = (width-2) * (height-2);
+        if((yellowCnt == yellow) && (width >= height)) {
+            answer.push_back(width);
+            answer.push_back(height);
+            break;
+        }
+    }
+    
+    return answer;
+}
+
 
 vector<int> solution(int brown, int red) {
     vector<int> answer;
@@ -34,24 +59,8 @@ vector<int> solution(int brown, int red) {
     
     return answer;
 }
+
 int main(int argc, const char * argv[]) {
-    solution(24,24);
+    solution2(24,24);
     return 0;
 }
-
-//48
-
-/*
- 16
- 3
- 
- 12
- 4
- 
- 9
- 5
- 
- 8
- 6
- */
-
