@@ -23,7 +23,7 @@ void input() {
 }
 
 int solution() {
-    int answer = 0;
+    int answer = -1;
     int left = 0;
     int right = N-1;
     int mid = (left + right) / 2;
@@ -50,10 +50,43 @@ int solution() {
     return answer;
 }
 
+int findStartIndex(int start, int end) {
+    if(start > end) return -1;
+    int mid = (start + end)/2;
+    
+    if((mid == 0 || x > list[mid-1]) && list[mid] == x) return mid; //두 번째 조건은 가장 왼쪽에 있는 인덱스를 구하기 위해.
+    else if(list[mid]>= x) return findStartIndex(start, mid-1);
+    else return findStartIndex(mid+1, end); //list[mid] < x
+    return -1;
+}
+
+int findEndIndex(int start, int  end) {
+    if(start > end) return -1;
+    int mid = (start + end) /2;
+
+    if((mid == end || x < list[mid+1]) && list[mid] == x) return mid; //두 번째 조건은 가장 왼쪽에 있는 인덱스를 구하기 위해.
+    else if(list[mid]> x) return findStartIndex(start, mid-1);
+    else return findEndIndex(mid+1, end); //list[mid] < x
+    return -1;
+}
+
+int solution2()  {
+    int startIndex = findStartIndex(0, N-1);
+    if(startIndex == -1) return -1;
+    int endIndex = findEndIndex(0, N-1);
+    return endIndex - startIndex  + 1;
+}
+
 int main(int argc, const char * argv[]) {
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
     input();
     cout<<solution()<<"\n";
+//    cout<<solution2()<<"\n";
     return 0;
 }
+
+/*
+7 4
+ 1 1 2 2 2 2 3
+ */
