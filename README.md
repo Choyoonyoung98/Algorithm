@@ -72,3 +72,17 @@ c++문법 기반의 알고리즘 예제
 👉🏻Queue
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Queue/Queue/main.cpp">Queue</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Priority_Queue/Priority_Queue/main.cpp">Prority_Queue</a>
+
+### 문제 유형에 따른 알고리즘 채택
+#### Greedy 그리디
+그리디란, 현재 상황에서 **"지금  당장"** 좋은 것만 고르는 방법입니다.  
+
+##### 문제 유형
+- 
+
+#### BFS / DFS
+BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.  
+대부분의 상황에서 BFS가 DFS보다 효율적이므로, 가능하다면 BFS 시도하는 것이 바람직해보입니다.  
+
+#### 다이나믹 프로그래밍 Dynamic Programming
+한 번 
