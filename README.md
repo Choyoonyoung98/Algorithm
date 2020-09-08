@@ -73,6 +73,8 @@ c++문법 기반의 알고리즘 예제
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Queue/Queue/main.cpp">Queue</a>
 - <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Priority_Queue/Priority_Queue/main.cpp">Prority_Queue</a>
 
+<hr/>
+
 ### 문제 유형에 따른 알고리즘 채택
 #### Greedy 그리디
 그리디란, 현재 상황에서 **"지금  당장"** 좋은 것만 고르는 방법입니다.  
