@@ -61,10 +61,6 @@ int solution() {
     int result = 0;
     sort(edges.begin(), edges.end(), compare);
     
-    for(int i=0; i<edges.size(); i++) {
-        cout<<edges[i].cost<<endl;;
-    }
-    
     for(int i=1; i<=N; i++) parent[i] = i;
     
     for(int i=0; i<edges.size(); i++) {
