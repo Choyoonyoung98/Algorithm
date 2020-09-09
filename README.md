@@ -98,11 +98,11 @@ BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.
 1) 나아갈 선택지가 있고
 2) 한쪽 방향으로만 나아가야할 때
 3) 이전의 결과값을 이후에도 누적해서 활용해야할 때  
-- [DP 더 자세히 알아보기](/theory/DP.md)
+- [DP 더 자세히 알아보기](/Theory/DP.md)
 
 #### 3) 최단 경로 문제
 그래프상에서 가장 짧은 경로를 찾는 알고리즘입니다.  
-- [최단 경로 알고리즘 자세히 알아보기](/theory/ShortestPathProblem.md)  
+- [최단 경로 알고리즘 자세히 알아보기](/Theory/ShortestPathProblem.md)  
 
 #### 4) 그래프  
-- [그래프 자세히 알아보기](/theory/Graph.md)  
+- [그래프 자세히 알아보기](/Theory/Graph.md)  
