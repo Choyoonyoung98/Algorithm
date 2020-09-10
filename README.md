@@ -93,6 +93,23 @@ void solution() {
 }
 ```
 
+- 중복된 수들을 포함한 숫자 2개 뽑기(단,뽑힌 숫자가 서로 중복되지 않게 해야한다.)
+```
+void solution() {
+  cin>> N>> M;
+  for(int i=0; i<N; i++) {
+    int x =0;
+    cin>> x;
+    numb_cnt[x]++;
+  }
+  
+  for(int i=1; i<=M; i++) {
+    N -= numb_cnt[i];
+    answer += numb_cnt[i] * N;
+  }
+}
+```
+
 #### 1) BFS / DFS
 BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.  
 대부분의 상황에서 BFS가 DFS보다 효율적이므로, 가능하다면 BFS 시도하는 것이 바람직해보입니다.  
