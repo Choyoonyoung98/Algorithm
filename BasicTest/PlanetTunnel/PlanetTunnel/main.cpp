@@ -6,7 +6,9 @@
 //  Copyright © 2020 조윤영. All rights reserved.
 //
 //최소 신장 트리 - 크루스칼
+//https://www.acmicpc.net/problem/2887
 
+#include <algorithm>
 #include <iostream>
 #include <vector>
 #define MAX_SIZE 100000
