@@ -1,13 +1,14 @@
 //
 //  main.cpp
-//  PopulationMovement
+//  ReviewBookTest
 //
-//  Created by 조윤영 on 2020/08/23.
+//  Created by 조윤영 on 2020/09/10.
 //  Copyright © 2020 조윤영. All rights reserved.
 //
-//이거 통과 안함
+//만들 수 없는 금액
 
-##include <cmath>
+//#include <algorithm>
+#include <cmath>
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -112,3 +113,28 @@ int main(int argc, const char * argv[]) {
     
     return 0;
 }
+
+/*
+ 2 20 50
+ 50 30
+ 20 40
+ 
+ 2 40 50
+ 50 30
+ 20 40
+ 
+ 2 20 50
+ 50 30
+ 30 40
+ 
+ 3 5 10
+ 10 15 20
+ 20 30 25
+ 40 22 10
+ 
+ 4 10 50
+ 10 100 20 90
+ 80 100 60 70
+ 70 20 30 40
+ 50 20 100 10
+ */
