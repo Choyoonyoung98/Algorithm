@@ -80,7 +80,35 @@ c++문법 기반의 알고리즘 예제
 그리디란, 현재 상황에서 **"지금  당장"** 좋은 것만 고르는 방법입니다.  
 
 ##### 문제 유형
-- 
+- 주어진 숫자 리스트를 이용해 만들 수 없는 최소값 구하기
+```
+void solution() {
+  sort(number.begin(), number.end());
+  int target = 1; //만들 수 없는 최소값은 1원부터 시작하기 때문
+  for(int i=0; i<number.size(); i++) {
+    if(target<number[i]) return false;
+    target += number[i];
+  }
+  return true;
+}
+```
+
+- 중복된 수들을 포함한 숫자 2개 뽑기(단,뽑힌 숫자가 서로 중복되지 않게 해야한다.)
+```
+void solution() {
+  cin>> N>> M;
+  for(int i=0; i<N; i++) {
+    int x =0;
+    cin>> x;
+    numb_cnt[x]++;
+  }
+  
+  for(int i=1; i<=M; i++) {
+    N -= numb_cnt[i];
+    answer += numb_cnt[i] * N;
+  }
+}
+```
 
 #### 1) BFS / DFS
 BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.  
