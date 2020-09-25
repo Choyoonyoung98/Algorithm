@@ -16,7 +16,7 @@ for(int i=1; i<=N; i++) parent[i] = i;
 int find(int x) {
   if(x == parent[x]) return x;
   else {
-    parent[x] = find(parent[x];
+    parent[x] = find(parent[x]);
     return parent[x];
   }
 }
