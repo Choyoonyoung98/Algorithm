@@ -12,6 +12,7 @@
 #include <string>
 #include <vector>
 #include <stack>
+#include <queue>
 
 using namespace std;
 
@@ -24,29 +25,10 @@ void print(Iter begin, Iter end) {
     cout<<endl;
 }
 
-//첫 번째 풀이
 vector<int> solution(vector<int> prices) {
     vector<int> answer;
-    int cnt = 0;
-    for(int i=0; i<prices.size(); i++) {
-        cnt = 0;
-        
-        for(int j=i+1;j<prices.size(); j++) {
-            cnt++;
-            if(prices[i]>prices[j])break;
-        }
-        answer.push_back(cnt);
-    }
-    return answer;
-}
-
-//스택을 이용한 두 번째 풀이(*)
-//순차적으로 접근하고 순차적으로 답을 구해야하는 경우에는 무조건 stack 의심해보기
-
-//14353
-vector<int> solution2(vector<int> prices) {
-    vector<int> answer;
     stack<int> s;
+    answer.assign(prices.size(), prices.size()-1);
     int size = prices.size();
     for(int i=0; i<size; i++) {
         
@@ -63,6 +45,34 @@ vector<int> solution2(vector<int> prices) {
     return answer;
 }
 
+vector<int> solution2(vector<int> prices) {
+    vector<int> answer;
+    priority_queue<pair<int, int>, vector<pair<int,int>>, less<pair<int,int>>> q; //price, index
+    
+    answer.assign(prices.size(), prices.size()-1);
+    
+    for(int i=0; i<prices.size(); i++) {
+        if(i != 0) {
+            while(!q.empty()) {
+                int price = q.top().first;
+                int index = q.top().second;
+                if(price > prices[i]) {
+                    answer[index] = i-index;
+                    q.pop();
+                } else break;
+            }
+        }
+        q.push({prices[i], i});
+    }
+    
+    while(!q.empty()) {
+        int index = q.top().second;
+        answer[index] = prices.size()-1-index;
+        q.pop();
+    }
+    
+    return answer;
+}
 int main(int argc, const char * argv[]) {
     vector<int> prices{1,2,3,2,3};
     solution(prices);
