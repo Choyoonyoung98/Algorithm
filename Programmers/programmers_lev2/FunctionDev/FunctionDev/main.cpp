@@ -25,49 +25,6 @@ void print(Iter begin, Iter end) {
     cout<<endl;
 }
 
-
-//2020-04-28 풀이
-vector<int> solution4(vector<int> progresses, vector<int> speeds) {
-    vector<int> answer;
-    
-    queue<int> leftTime;
-    
-    for(int i=0; i<progresses.size(); i++) {
-        int leftWork = 100 - progresses[i];
-        int t = leftWork/speeds[i];
-        if((leftWork % speeds[i]) != 0) {
-            t++;
-        }
-        leftTime.push(t);
-    }
-
-    int distributionCnt = 0;
-    int standardTask = leftTime.front();
-    
-    while(!leftTime.empty()) {
-        distributionCnt++;
-        
-        int currentLeftTime = leftTime.front();
-        
-        if(standardTask < currentLeftTime){
-            answer.push_back(distributionCnt-1);
-            
-            standardTask = currentLeftTime;
-            distributionCnt = 1;
-        }
-            
-        leftTime.pop();
-        
-    }
-    
-    if(distributionCnt != 0) answer.push_back(distributionCnt);
-    
-    for(int i=0; i<answer.size(); i++) {
-        cout<<answer[i]<<endl;
-    }
-    return answer;
-}
-
 //MAX값 바꿔주면서 answer에 최종 값 담는 방법
 vector<int> solution(vector<int> progresses, vector<int> speeds) {
     vector<int> temp(progresses.size());
@@ -167,6 +124,42 @@ vector<int> solution3(vector<int> progresses, vector<int> speeds) {
         }
     }
     answer.push_back(cnt);
+    
+    return answer;
+}
+
+//20201022
+vector<int> solution5(vector<int> progresses, vector<int> speeds) {
+    vector<int> answer;
+    queue<pair<int,int>> q; //작업시간, 배포 작업 개수
+    
+    for(int i=0; i<progresses.size(); i++) {
+        int leftProgress = 100 - progresses[i];
+        int speed = speeds[i];
+        int day = leftProgress / speed;
+        if(leftProgress % speed != 0) day += 1;
+        
+        if(q.empty()) {
+            q.push({day, 1});
+        } else {
+            int prevDay = q.front().first;
+            int cnt = q.front().second;
+            if(prevDay >= day) {
+                q.pop();
+                q.push({prevDay, cnt+1});
+            } else {
+                answer.push_back(cnt);
+                q.pop();
+                q.push({day, 1});
+            }
+        }
+    }
+    
+    while(!q.empty()) {
+        int cnt = q.front().second;
+        answer.push_back(cnt);
+        q.pop();
+    }
     
     return answer;
 }
