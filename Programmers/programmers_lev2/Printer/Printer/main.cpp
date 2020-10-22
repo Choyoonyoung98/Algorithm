@@ -88,6 +88,29 @@ int solution(vector<int> priorities, int location) {
     return answer;
 }
 
+//20201022
+int solution3(vector<int> priorities, int location) {
+    int answer = 0;
+    vector<int> temp = priorities;
+    sort(temp.begin(), temp.end(), greater<int>());
+    int index = 0;
+    vector<bool> visited(priorities.size(), false);
+    
+    while(true) {
+        bool isExist = false;
+        for(int i=0; i<priorities.size(); i++) {
+            if(!visited[i] && (priorities[i] == temp[index])) {
+                isExist = true;
+                if(i == location) return index+1;
+                visited[i] = true;
+                index++;
+            }
+        }
+        if(!isExist) break;
+    }
+    return answer;
+}
+
 int main(int argc, const char * argv[]) {
     vector<int> priorities = {1,1,9,1,1,1};
     int location = 0;
