@@ -5,10 +5,10 @@
 //  Created by 조윤영 on 24/08/2019.
 //  Copyright © 2019 조윤영. All rights reserved.
 //
-
-#include <iostream>
 #include <string>
 #include <vector>
+#include <map>
+#include <iostream>
 #include <algorithm>
 
 using namespace std;
@@ -48,7 +48,29 @@ int solution(string skill, vector<string> skill_trees)
         if (is_sorted(v.begin(), v.end())) ++answer;
     }
     return answer;
+}
+
+int solution2(string skill, vector<string> skill_trees) {
+    int answer = 0;
+    vector<int> position;
+    map<char, int> m;
     
+    for(int i=0; i<skill.size(); i++) {
+        m[skill[i]] = i;
+    }
+    
+    for(string currentSkill: skill_trees) {
+        position.assign(skill.size(), currentSkill.size());
+        for(int i=0; i<currentSkill.size(); i++) {
+            if(m.count(currentSkill[i]) > 0) {
+                int index = m[currentSkill[i]];
+                position[index] = i;
+            }
+        }
+
+        if(is_sorted(position.begin(), position.end())) answer++;
+    }
+    return answer;
 }
 
 int main(int argc, const char * argv[]) {
