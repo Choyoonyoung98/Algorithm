@@ -124,7 +124,6 @@ vector<int> solution3(vector<int> progresses, vector<int> speeds) {
         }
     }
     answer.push_back(cnt);
-    
     return answer;
 }
 
@@ -155,11 +154,7 @@ vector<int> solution5(vector<int> progresses, vector<int> speeds) {
         }
     }
     
-    while(!q.empty()) {
-        int cnt = q.front().second;
-        answer.push_back(cnt);
-        q.pop();
-    }
+    if(!q.empty()) answer.push_back(q.front().second);
     
     return answer;
 }
