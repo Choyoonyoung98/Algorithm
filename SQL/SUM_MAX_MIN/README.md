@@ -11,6 +11,10 @@ FROM ANIMAL_INS
 ORDER BY DATETIME DESC
 LIMIT 1
 ```
+```
+SELECT MAX(DATETIME) 
+FROM ANIMAL_INS
+```
 <hr/>
 ✍🏻[최솟값 구하기]
 : 동물 보호소에 가장 먼저 들어온 동물은 언제 들어왔는지 조회하는 SQL 문을 작성해주세요.
@@ -20,6 +24,10 @@ SELECT DATETIME
 FROM ANIMAL_INS
 ORDER BY DATETIME
 LIMIT 1
+```
+```
+SELECT MIN(DATETIME)
+FROM ANIMAL_INS
 ```
 <hr/>
 ✍🏻[동물 수 구하기]
@@ -35,4 +43,18 @@ FROM ANIMAL_INS
 
 ```
 SELECT COUNT(DISTINCT(NAME)) FROM ANIMAL_INS
+```
+
+<hr/>
+✍🏻[평균 구하기]
+
+```
+SELECT AVG(AGE) FROM MY_TABLE;
+```
+<hr/>
+✍🏻[합계 구하기]
+
+```
+SELECT SUM(AGE) FROM MY_TABLE;
+SELECT SUM(AGE+VAT) FROM MY_TABLE; //테이블의 AGE와 VT를 합한 
 ```
