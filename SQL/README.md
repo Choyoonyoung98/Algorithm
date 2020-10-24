@@ -12,3 +12,5 @@ MySQL을 이용한 프로그래머스 SQL 고득적 kit 풀이
 ✍🏻 JOIN <a href="https://github.com/Choyoonyoung98/Algorithm/tree/master/SQL/JOIN">GO</a>
 <br>
 ✍🏻 String, Date <a href="https://github.com/Choyoonyoung98/Algorithm/tree/master/SQL/String_Date">GO</a>
+<br>
+✍🏻 CASE <a href="https://github.com/Choyoonyoung98/Algorithm/tree/master/SQL/Case">GO</a>
