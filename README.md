@@ -77,45 +77,14 @@ c++문법 기반의 알고리즘 예제
 <hr/>
 
 ### 문제 유형에 따른 알고리즘 채택 [GO](/theory/Algorithm_Kinds.md)  
-#### Greedy 그리디
-그리디란, 현재 상황에서 **"지금  당장"** 좋은 것만 고르는 방법입니다.  
+#### 1) Greedy 그리디
+- [Greedy 알고리즘 자세히 알아보기](/Theory/Greedy.md) 
 
-##### 문제 유형
-- 주어진 숫자 리스트를 이용해 만들 수 없는 최소값 구하기
-```
-void solution() {
-  sort(number.begin(), number.end());
-  int target = 1; //만들 수 없는 최소값은 1원부터 시작하기 때문
-  for(int i=0; i<number.size(); i++) {
-    if(target<number[i]) return false;
-    target += number[i];
-  }
-  return true;
-}
-```
-
-- 중복된 수들을 포함한 숫자 2개 뽑기(단,뽑힌 숫자가 서로 중복되지 않게 해야한다.)
-```
-void solution() {
-  cin>> N>> M;
-  for(int i=0; i<N; i++) {
-    int x =0;
-    cin>> x;
-    numb_cnt[x]++;
-  }
-  
-  for(int i=1; i<=M; i++) {
-    N -= numb_cnt[i];
-    answer += numb_cnt[i] * N;
-  }
-}
-```
-
-#### 1) BFS / DFS
+#### 2) BFS / DFS
 BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.  
 대부분의 상황에서 BFS가 DFS보다 효율적이므로, 가능하다면 BFS 시도하는 것이 바람직해보입니다.  
 
-#### 2) 다이나믹 프로그래밍 Dynamic Programming
+#### 3) 다이나믹 프로그래밍 Dynamic Programming
 한 번 구한 결과를 메모리 공간에 메모해두고 같은 식을 다시 호출하면 메모한 결과를 그대로 가져오는 기법을 의미합니다.  
 메모리 공간을 약가 더 사용하면 연산속도를 비약적으로 증가시킬 수 있는 방법입니다. 다이나믹 프로그래밍에는 **탑 다운(메모리제이션)**, **보텀업** 2가지 방식이 있습니다.  
 
@@ -129,13 +98,13 @@ BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.
 3) 이전의 결과값을 이후에도 누적해서 활용해야할 때  
 - [DP 더 자세히 알아보기](/Theory/DP.md)
 
-#### 3) 최단 경로 문제
+#### 4) 최단 경로 문제
 그래프상에서 가장 짧은 경로를 찾는 알고리즘입니다.  
 - [최단 경로 알고리즘 자세히 알아보기](/Theory/ShortestPathProblem.md)  
 
-#### 4) 그래프  
+#### 5) 그래프  
 - [그래프 자세히 알아보기](/Theory/Graph.md)  
 
-#### 5) 부분집합
+#### 6) 부분집합
 - [부분집합 자세히 알아보기](/Theory/Subsest.md)
 
