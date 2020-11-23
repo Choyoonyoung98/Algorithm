@@ -19,27 +19,24 @@ for(int k=0; k<N; k++) {
 한 단계당 하나의 노드에 대한 최단 거리를 확실히 찾는 것으로 이해할 수 있습니다.  
 
 ```
-void dijkstra(int start) {
-  d[start] = 0;
-  priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
-  pq.push({start, 0});
-  
-  while(!pq.empty()) {
-    int current = pq.top().first;
-    int distance = pq.top().second;
-    pq.pop();
-    
-    if(d[current] < distance) continue;
-    for(int i=0; i<a[current].size(); i++) {
-      int next = a[current][i].first;
-      int nextDistance = distance + a[current][i].second'
-      
-      if(nextDistance <d[next]) {
-        d[next] = nextDistance;
-        pq.push({next, nextDistance});
-      }
+void dijkstra(int source) {
+    d[source] = 0;
+    priority_queue<pair<int,int>, vector<pair<int,int>>, greater<pair<int,int>>> pq;
+    pq.push({0, source});
+    while(!pq.empty()) {
+        int cost = pq.top().first;
+        int index = pq.top().second;
+        pq.pop();
+        if(d[index] < cost) continue;
+        for(int i=0; i<graph[index].size(); i++) {
+            int nextCost = cost + graph[index][i].first;
+            int nextIndex = graph[index][i].second;
+            if(d[nextIndex] > nextCost) {
+                d[nextIndex] = nextCost;
+                pq.push({nextCost, nextIndex});
+            }
+        }
     }
-  }
 }
 ```
 
