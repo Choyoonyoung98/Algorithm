@@ -1,4 +1,4 @@
 # Algorithm
 
-- .[c++](/C++)
+- [C++](/C++)
 - [swift](/Swift)
