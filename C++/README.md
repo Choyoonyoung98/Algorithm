@@ -21,7 +21,7 @@ c++문법 기반의 알고리즘 예제
 
 #### 🤓라이브러리
 
-✍🏻 cmath <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/cmath/cmath/main.cpp">GO</a>
+✍🏻 [cmath](blob/master/Grammar/cmath/cmath/main.cpp)
   - ceil: 올림
   - floor: 내림
   - abs: 절대값 반환
@@ -42,37 +42,36 @@ c++문법 기반의 알고리즘 예제
 #### 😐기본 문법
 
 👉🏻Basic
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Input_Output/Input_Output/main.cpp">입/출력</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Function_Call/Function_Call/main.cpp">함수 호출<a>
+- [입/출력](blob/master/Grammar/Input_Output/Input_Output/main.cpp)
+- [함수 호출](blob/master/Grammar/Function_Call/Function_Call/main.cpp)
   
 👉🏻String
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/String_Chars/String_Chars/main.cpp">string 기본 함수</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Type/Type/main.cpp">형 변환</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/ExpressionCheck/ExpressionCheck/main.cpp">정규식 확인</a>
+- [string 기본 함수](blob/master/Grammar/String_Chars/String_Chars/main.cpp)
+- [형 변환](blob/master/Grammar/Type/Type/main.cpp)
+- [정규식 확인](blob/master/Grammar/ExpressionCheck/ExpressionCheck/main.cpp)
 
 👉🏻Vector
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Vector_1/Vector_1/main.cpp">벡터 기본1</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Vector_2/Vector_2/main.cpp">벡터 기본2</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Find/Find/main.cpp">Find</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Remove/Remove/main.cpp">Remove, lambda,transform</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Unique/Unique/main.cpp"> Unique</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Sort/Sort/main.cpp">Sort</a>
+- [벡터 기본1](blob/master/Grammar/Vector_1/Vector_1/main.cpp)
+- [벡터 기본2](blob/master/Grammar/Vector_2/Vector_2/main.cpp)
+- [Find](blob/master/Grammar/Find/Find/main.cpp)
+- [Remove, lambda,transform](blob/master/Grammar/Remove/Remove/main.cpp)
+- [Unique](blob/master/Grammar/Unique/Unique/main.cpp)
+- [Sort](blob/master/Grammar/Sort/Sort/main.cpp)
 
 👉🏻Map / Set
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Set/Set/main.cpp">Set</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Map/Map/main.cpp">Map</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/MultiSet_Map/MultiSet_Map/main.cpp">MultiSet, MultiMap</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/UnorderedMap_Set/UnorderedMap_Set/main.cpp"> UnorderedSet, UnOrderedMap</a>
+- [Set](blob/master/Grammar/Set/Set/main.cpp)
+- [Map](blob/master/Grammar/Map/Map/main.cpp)
+- [MultiSet, MultiMap](blob/master/Grammar/MultiSet_Map/MultiSet_Map/main.cpp)
+- [UnorderedSet, UnOrderedMap<](blob/master/Grammar/UnorderedMap_Set/UnorderedMap_Set/main.cpp)
 
-👉🏻Linked List
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/LinkedList/LinkedList/main.cpp">Linked List</a>
+👉🏻[Linked List](blob/master/Grammar/LinkedList/LinkedList/main.cpp)
 
 👉🏻Stack
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Stack/Stack/main.cpp">Stack</a>
+- [Stack](blob/master/Grammar/Stack/Stack/main.cpp)
 
 👉🏻Queue
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Queue/Queue/main.cpp">Queue</a>
-- <a href="https://github.com/Choyoonyoung98/Algorithm/blob/master/Grammar/Priority_Queue/Priority_Queue/main.cpp">Prority_Queue</a>
+- [Queue](blob/master/Grammar/Queue/Queue/main.cpp)
+- [Prority_Queue](blob/master/Grammar/Priority_Queue/Priority_Queue/main.cpp)
 
 <hr/>
 
