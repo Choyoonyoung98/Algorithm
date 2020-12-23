@@ -76,24 +76,24 @@ c++문법 기반의 알고리즘 예제
 
 <hr/>
 
-### 문제 유형에 따른 알고리즘 채택 [GO](/theory/Algorithm_Kinds.md)  
+### 문제 유형에 따른 알고리즘 채택
 #### 1) Greedy 그리디
-- [Greedy 알고리즘 자세히 알아보기](/Theory/Greedy.md) 
+- [Greedy 알고리즘 자세히 알아보기](Theory/Greedy.md) 
 
 #### 2) BFS / DFS
 BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.  
 대부분의 상황에서 BFS가 DFS보다 효율적이므로, 가능하다면 BFS 시도하는 것이 바람직해보입니다.  
 
 #### 3) 다이나믹 프로그래밍 Dynamic Programming
-- [DP 더 자세히 알아보기](/Theory/DP.md)
+- [DP 더 자세히 알아보기](Theory/DP.md)
 
 #### 4) 최단 경로 문제
 그래프상에서 가장 짧은 경로를 찾는 알고리즘입니다.  
-- [최단 경로 알고리즘 자세히 알아보기](/Theory/ShortestPathProblem.md)  
+- [최단 경로 알고리즘 자세히 알아보기](Theory/ShortestPathProblem.md)  
 
 #### 5) 그래프  
-- [그래프 자세히 알아보기](/Theory/Graph.md)  
+- [그래프 자세히 알아보기](Theory/Graph.md)  
 
 #### 6) 부분집합
-- [부분집합 자세히 알아보기](/Theory/Subsest.md)
+- [부분집합 자세히 알아보기](Theory/Subsest.md)
 
