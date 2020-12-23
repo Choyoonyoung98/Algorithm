@@ -79,7 +79,7 @@
 - [ ] [내려가기](https://www.acmicpc.net/problem/2096)
 - [ ] [회전초밥](https://www.acmicpc.net/problem/2531)
 
-<hr/>  
+<hr><hr/>  
 #### - [에라토스테네스의 체](https://www.acmicpc.net/problem/2960)  
 #### - [삼성 SW 역량 테스트](https://www.acmicpc.net/workbook/view/1152)  
 #### - [삼성 A형 기출 문제](https://www.acmicpc.net/workbook/view/2771)  
