@@ -1,7 +1,7 @@
 ## 유형별 대표 문제 정리
 
 ### 1. 그리디
-- [ ] [문자열 뒤집기](https://www.acmicpc.net/problem/1439)
+- [x] [문자열 뒤집기](https://www.acmicpc.net/problem/1439)
 - [ ] [ATM](https://www.acmicpc.net/problem/11399)
 - [ ] [동전](https://www.acmicpc.net/problem/11047)
 - [ ] [뒤집기](https://www.acmicpc.net/problem/1439)
