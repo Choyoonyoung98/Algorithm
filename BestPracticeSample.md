@@ -1,7 +1,7 @@
 ## 유형별 대표 문제 정리
 
 ### 1. 그리디
-- [x] [문자열 뒤집기](https://www.acmicpc.net/problem/1439) [[C++]](C++/BasicTest/Flip1439_C++/Flip1439_C++/main.cpp)
+- [x] [문자열 뒤집기](https://www.acmicpc.net/problem/1439) [[C++]](C++/BasicTest/Flip1439_C++/Flip1439_C++/main.cpp) [[Swift]](Swift/BasicExample/FlipWord1439/FlipWord1439/main.swift)  
 - [ ] [ATM](https://www.acmicpc.net/problem/11399)
 - [ ] [동전](https://www.acmicpc.net/problem/11047)
 - [ ] [뒤집기](https://www.acmicpc.net/problem/1439)
