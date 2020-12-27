@@ -2,7 +2,7 @@
 
 ### 1. 그리디
 - [x] [문자열 뒤집기](https://www.acmicpc.net/problem/1439) [[C++]](C++/BasicTest/Flip1439_C++/Flip1439_C++/main.cpp) [[Swift]](Swift/BasicExample/FlipWord1439/FlipWord1439/main.swift)  
-- [x] [ATM](https://www.acmicpc.net/problem/11399)
+- [x] [ATM](https://www.acmicpc.net/problem/11399) [[C++]](C++/BasicTest/ATM11399/ATM11399/main.cpp) [[Swift]](Swift/BasicExample/ATM11399/ATM11399/main.swift)  
 - [ ] [동전](https://www.acmicpc.net/problem/11047)
 - [ ] [뒤집기](https://www.acmicpc.net/problem/1439)
 - [ ] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
