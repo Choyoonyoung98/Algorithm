@@ -8,4 +8,14 @@ let N = Int(readLine()!)
 times = readLine()!.split(separator: " ").map { Int($0)! }
 ```
 
-- [문자열 조작](String.playground/Contents.swift)
+- [문자열 조작](String.playground/Contents.swift)  
+
+- 정렬
+```
+//오름차순
+arr.sort()
+//내림차순
+arr.sort(by: >)
+```
+
+
