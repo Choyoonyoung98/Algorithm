@@ -45,8 +45,8 @@ splitArr.map { sp in
 
 //[String -> Int]
 let strText = "123"
-let nIntVal: UInt? = UInt(strText)
-if let nIntval2: UInt = nIntVal {
+let nIntVal: Int? = Int(strText)
+if let nIntval2: Int = nIntVal {
     let cal = nIntval2 * 2
 }
 //[Int -> String
