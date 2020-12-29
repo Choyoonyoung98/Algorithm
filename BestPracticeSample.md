@@ -8,7 +8,7 @@
 
 ### 2. 구현
 - [x] [럭키 스트레이트](https://www.acmicpc.net/problem/18406) [[Swift]](Swift/BasicExample/LuckyStraight18406/LuckyStraight18406/main.swift)
-- [ ] [* 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) [[Swift]](Swift/BasicExample/WordCompression60057/WordCompression60057/main.swift)
+- [x] [* 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) [[Swift]](Swift/BasicExample/WordCompression60057/WordCompression60057/main.swift)
 - [ ] [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
 - [ ] [뱀](https://www.acmicpc.net/problem/3190)
 - [ ] [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
