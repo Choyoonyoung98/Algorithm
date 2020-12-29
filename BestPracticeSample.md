@@ -4,10 +4,10 @@
 - [x] [뒤집기](https://www.acmicpc.net/problem/1439) [[C++]](C++/BasicExample/Flip1439_C++/Flip1439_C++/main.cpp) [[Swift]](Swift/BasicExample/FlipWord1439/FlipWord1439/main.swift)  
 - [x] [ATM](https://www.acmicpc.net/problem/11399) [[C++]](C++/BasicExample/ATM11399/ATM11399/main.cpp) [[Swift]](Swift/BasicExample/ATM11399/ATM11399/main.swift)  
 - [x] [동전](https://www.acmicpc.net/problem/11047) [[C++]](C++/BasicExample/Coin11047/Coin11047/main.cpp) [[Swift]](Swift/BasicExample/Coin11047/Coin11047/main.swift)  
-- [x] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891)
+- [x] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) [[C++]](C++/BasicExample/MujiMukbang42891/MujiMukbang42891/main.cpp) [[Swift]](Swift/BasicExample/MujiMukbang42891/MujiMukbang42891/main.swift)  
 
 ### 2. 구현
-- [ ] [럭키 스트레이트](https://www.acmicpc.net/problem/18406)
+- [ ] [럭키 스트레이트](https://www.acmicpc.net/problem/18406) [[Swift]](Swift/BasicExample/LuckyStraight18406/LuckyStraight18406/main.swift)
 - [ ] [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057)
 - [ ] [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
 - [ ] [뱀](https://www.acmicpc.net/problem/3190)
