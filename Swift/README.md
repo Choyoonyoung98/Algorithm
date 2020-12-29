@@ -16,6 +16,16 @@ times = readLine()!.split(separator: " ").map { Int($0)! }
 arr.sort()
 //내림차순
 arr.sort(by: >)
+
+let newArr = arr.sorted()
 ```
 
+- 새로운 데이터 타입 선언
+```var newInfo: [(time: Int, index: Int)]```  
 
+- enumerated  
+$0에 index를, $1에 해당 index의 배열값에 접근할 수 있다
+```var food_info: [(time: Int, index: Int)] = food_times.enumerated().map{($1, $0)}```
+
+- 특정 index부터의 원소로 다시 재정의  
+```food_info = food_info[i...]```  
