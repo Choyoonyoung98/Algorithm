@@ -85,5 +85,6 @@
 #### - [삼성 A형 기출 문제](https://www.acmicpc.net/workbook/view/2771)   
 #### - [순열](https://www.acmicpc.net/workbook/view/2052)   
 #### - [틀리기 쉬운 문제](https://www.acmicpc.net/workbook/view/4357)   
-
-
+#### - 예외 테스트케이스 찾기
+1) 0또는 1의 길이 및 0 또는 1이 입력값으로 주어질 때
+2) 입력값이 범위를 초과할 때
