@@ -48,27 +48,3 @@ public struct Queue<T> {
         return data.count
     }
 }
-
-public struct prioritQueue<T> {
-    internal var heap = Heap<T>()
-    public init(sort: @escaping (T, T) -> Bool) {
-        heap = Heap(sort: sort)
-    }
-    
-    public func top() -> T{
-        
-    }
-    
-    public func push(_ element: T) {
-        
-    }
-    
-    public func pop()  {
-        
-    }
-    public func isEmpty() -> Bool {
-        return data.isEmpty
-    }
-    
-    
-}
