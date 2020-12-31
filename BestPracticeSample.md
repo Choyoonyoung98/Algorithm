@@ -25,7 +25,7 @@
 - [ ] [인구 이동](https://www.acmicpc.net/problem/16234)
 
 ### 4. 정렬
-- [ ] [국영수](https://www.acmicpc.net/problem/10825)
+- [x] [국영수](https://www.acmicpc.net/problem/10825) [[Swift]](Swift/BasicExample/KoreanEnglishMath10825/KoreanEnglishMath10825/main.swift)
 - [ ] [안테나](https://www.acmicpc.net/problem/18310)
 - [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 - [ ] [카드 정렬하기](https://www.acmicpc.net/problem/1715)
