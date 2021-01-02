@@ -80,6 +80,7 @@
 
 #### 12. 문자열
 - [x] [괄호](https://www.acmicpc.net/problem/9012) [[Swift]](Swift/BasicExample/Bracket9012/Bracket9012/main.swift)
+- [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316) [[Swift]](Swift/BasicExample/GroupWordChecker/GroupWordChecker/main.swift)
 
 
 <hr/>    
