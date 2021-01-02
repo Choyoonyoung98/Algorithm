@@ -78,6 +78,10 @@
 - [ ] [내려가기](https://www.acmicpc.net/problem/2096)
 - [ ] [회전초밥](https://www.acmicpc.net/problem/2531)
 
+#### 12. 문자열
+- [x] [괄호](https://www.acmicpc.net/problem/9012) [[Swift]](Swift/BasicExample/Bracket9012/Bracket9012/main.swift)
+
+
 <hr/>    
 
 #### - [에라토스테네스의 체](https://www.acmicpc.net/problem/2960)   
