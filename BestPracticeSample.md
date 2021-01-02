@@ -81,7 +81,8 @@
 #### 12. 문자열
 - [x] [괄호](https://www.acmicpc.net/problem/9012) [[Swift]](Swift/BasicExample/Bracket9012/Bracket9012/main.swift)
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316) [[Swift]](Swift/BasicExample/GroupWordChecker/GroupWordChecker/main.swift)
-
+- [x] [제로](https://www.acmicpc.net/problem/10773) [[Swift]](Swift/BasicExample/Zero10773/Zero10773/main.swift)
+- [ ] [LCS](https://www.acmicpc.net/problem/9251)
 
 <hr/>    
 
