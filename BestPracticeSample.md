@@ -10,7 +10,7 @@
 - [x] [럭키 스트레이트](https://www.acmicpc.net/problem/18406) [[C++]](C++/BasicExample/LuckyStraight18406/LuckyStraight18406/main.cpp) [[Swift]](Swift/BasicExample/LuckyStraight18406/LuckyStraight18406/main.swift)
 - [x] [* 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) [[C++]](C++/BasicExample/WordCompression60057/WordCompression60057/main.cpp) [[Swift]](Swift/BasicExample/WordCompression60057/WordCompression60057/main.swift)
 - [ ] [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
-- [x] [뱀](https://www.acmicpc.net/problem/3190) [[Swift]](Swift/BasicExample/Snake3190/Snake3190/main.swift)
+- [x] [뱀](https://www.acmicpc.net/problem/3190) [[C++]](C++/BasicExample/Snake3190/Snake3190/main.cpp) [[Swift]](Swift/BasicExample/Snake3190/Snake3190/main.swift)
 - [ ] [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
 - [x] [* 치킨 배달](https://www.acmicpc.net/problem/15686) [[Swift]](Swift/BasicExample/ChickenDelivery15686/ChickenDelivery15686/main.swift)
 - [ ] [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
