@@ -46,7 +46,6 @@ func getChickenDist() -> Int {
 var answer: Int = Int.max
 func DFS(_ cnt: Int) {
     if cnt == M {
-//        print(order)
         answer = min(answer, getChickenDist())
         return
     }
