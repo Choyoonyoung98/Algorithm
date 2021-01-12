@@ -93,10 +93,10 @@
 - [x] [N과 M(6)](https://www.acmicpc.net/problem/15655) [[Swift]](Swift/BasicExample/NandM/NandM_6/NandM_6/main.swift)  
 - [x] [N과 M(7)](https://www.acmicpc.net/problem/15656) [[Swift]](Swift/BasicExample/NandM/NandM_7/NandM_7/main.swift)  
 - [x] [N과 M(8)](https://www.acmicpc.net/problem/15657) [[Swift]](Swift/BasicExample/NandM/NandM_8/NandM_8/main.swift)  
-- [ ] [N과 M(9)](https://www.acmicpc.net/problem/15663)  
-- [ ] [N과 M(10)](https://www.acmicpc.net/problem/15664)  
-- [ ] [N과 M(11)](https://www.acmicpc.net/problem/15665)  
-- [ ] [N과 M(12)](https://www.acmicpc.net/problem/15666)  
+- [x] [N과 M(9)](https://www.acmicpc.net/problem/15663) [[Swift]](Swift/BasicExample/NandM/NandM_9/NandM_9/main.swift)  
+- [x] [N과 M(10)](https://www.acmicpc.net/problem/15664) [[Swift]](Swift/BasicExample/NandM/NandM_10/NandM_10/main.swift)  
+- [x] [N과 M(11)](https://www.acmicpc.net/problem/15665) [[Swift]](Swift/BasicExample/NandM/NandM_11/NandM_11/main.swift)  
+- [x] [N과 M(12)](https://www.acmicpc.net/problem/15666) [[Swift]](Swift/BasicExample/NandM/NandM_12/NandM_12/main.swift)  
 
 <hr/>    
 
