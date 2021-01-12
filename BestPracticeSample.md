@@ -16,7 +16,7 @@
 - [ ] [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
 ### 3. DFS/BFS
-- [ ] [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
+- [x] [* 특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352)
 - [ ] [연구소](https://www.acmicpc.net/problem/14502)
 - [ ] [경쟁적 전염](https://www.acmicpc.net/problem/18405)
 - [x] [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) [[Swift]](Swift/BasicExample/TransferBracket60058/TransferBracket60058/main.swift)  
