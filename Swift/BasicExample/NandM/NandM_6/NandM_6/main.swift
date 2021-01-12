@@ -1,8 +1,8 @@
 //
 //  main.swift
-//  NandM_5
+//  NandM_6
 //
-//  Created by 조윤영 on 2021/01/11.
+//  Created by 조윤영 on 2021/01/12.
 //
 
 import Foundation
@@ -11,32 +11,32 @@ func input() {
     let inputList1: [Int] = readLine()!.split(separator: " ").map{ Int($0)! }
     let N = inputList1[0]
     let M = inputList1[1]
+    
     var list: [Int] = readLine()!.split(separator: " ").map{ Int($0)! }
     list.sort()
-
-    solution(list, N, M)
+    solution(N, M, list)
+    
 }
 
 var answer_list = [String]()
-var visited = [Bool](repeating: false, count: 10)
-func DFS(_ list: [Int], _ N: Int, _ M: Int, _ cnt: Int) {
+func DFS(_ N: Int, _ M: Int, _ list: [Int], _ index: Int, _ cnt: Int) {
+    
     if cnt == M {
         print(answer_list.joined(separator: " "))
         return
     }
     
-    for i in 0..<N {
-        guard !visited[i] else { continue }
-        visited[i] = true
+    guard index <= N else { return }
+    
+    for i in index..<N {
         answer_list.append(String(list[i]))
-        DFS(list, N, M, cnt+1)
-        visited[i] = false
+        DFS(N, M, list, i+1, cnt+1)
         answer_list.removeLast()
     }
 }
 
-func solution(_ list: [Int], _ N: Int, _ M: Int) {
-    DFS(list, N, M, 0)
+func solution(_ N: Int, _ M: Int, _ list: [Int]) {
+    DFS(N, M, list, 0, 0)
 }
-
 input()
+
