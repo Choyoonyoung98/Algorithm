@@ -84,7 +84,7 @@
 - [x] [제로](https://www.acmicpc.net/problem/10773) [[Swift]](Swift/BasicExample/Zero10773/Zero10773/main.swift)
 - [ ] [LCS](https://www.acmicpc.net/problem/9251)
 
-#### 13. 조합
+#### 13. [순열/조합](https://www.acmicpc.net/workbook/view/2052)
 - [x] [N과 M(1)](https://www.acmicpc.net/problem/15649) [[Swift]](Swift/BasicExample/NandM/NandM_1/NandM_1/main.swift)
 - [x] [N과 M(2)](https://www.acmicpc.net/problem/15650) [[Swift]](Swift/BasicExample/NandM/NandM_2/NandM_2/main.swift)
 - [x] [N과 M(3)](https://www.acmicpc.net/problem/15651) [[Swift]](Swift/BasicExample/NandM/NandM_3/NandM_3/main.swift)  
@@ -103,7 +103,6 @@
 #### - [에라토스테네스의 체](https://www.acmicpc.net/problem/2960)   
 #### - [삼성 SW 역량 테스트](https://www.acmicpc.net/workbook/view/1152)   
 #### - [삼성 A형 기출 문제](https://www.acmicpc.net/workbook/view/2771)   
-#### - [순열](https://www.acmicpc.net/workbook/view/2052)   
 #### - [틀리기 쉬운 문제](https://www.acmicpc.net/workbook/view/4357)   
 #### - 예외 테스트케이스 찾기
 1) 0또는 1의 길이 및 0 또는 1이 입력값으로 주어질 때
