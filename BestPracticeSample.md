@@ -21,7 +21,7 @@
 - [x] [경쟁적 전염](https://www.acmicpc.net/problem/18405) [[Swift]](Swift/BasicExample/CompetitiveTransmission18405/CompetitiveTransmission18405/main.swift)
 - [x] [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) [[Swift]](Swift/BasicExample/TransferBracket60058/TransferBracket60058/main.swift)  
 - [ ] [연산자 끼워 넣기](https://www.acmicpc.net/problem/14888)
-- [ ] [감시 피하기](https://www.acmicpc.net/problem/18428)
+- [x] [감시 피하기](https://www.acmicpc.net/problem/18428) [[Swift]](Swift/BasicExample/AvoidSurveillance18428/AvoidSurveillance18428/main.swift)
 - [ ] [인구 이동](https://www.acmicpc.net/problem/16234)
 
 ### 4. 정렬
