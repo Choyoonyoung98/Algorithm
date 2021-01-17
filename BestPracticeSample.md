@@ -22,7 +22,7 @@
 - [x] [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) [[Swift]](Swift/BasicExample/TransferBracket60058/TransferBracket60058/main.swift)  
 - [ ] [연산자 끼워 넣기](https://www.acmicpc.net/problem/14888)
 - [x] [감시 피하기](https://www.acmicpc.net/problem/18428) [[Swift]](Swift/BasicExample/AvoidSurveillance18428/AvoidSurveillance18428/main.swift)
-- [ ] [인구 이동](https://www.acmicpc.net/problem/16234)
+- [x] [인구 이동](https://www.acmicpc.net/problem/16234) [[Swift]](Swift/BasicExample/PopulationMovement16234/PopulationMovement16234/main.swift)
 
 ### 4. 정렬
 - [x] [국영수](https://www.acmicpc.net/problem/10825) [[Swift]](Swift/BasicExample/KoreanEnglishMath10825/KoreanEnglishMath10825/main.swift)
