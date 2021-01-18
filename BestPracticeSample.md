@@ -26,9 +26,9 @@
 
 ### 4. 정렬
 - [x] [국영수](https://www.acmicpc.net/problem/10825) [[Swift]](Swift/BasicExample/KoreanEnglishMath10825/KoreanEnglishMath10825/main.swift)
-- [ ] [안테나](https://www.acmicpc.net/problem/18310)
-- [ ] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
-- [ ] [카드 정렬하기](https://www.acmicpc.net/problem/1715)
+- [x] [안테나](https://www.acmicpc.net/problem/18310) [[Swift]](Swift/BasicExample/Antenna18310/Antenna18310/main.swift)
+- [x] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) [[Swift]](Swift/BasicExample/FailureRate42889/FailureRate42889/main.swift)
+- [x] [카드 정렬하기](https://www.acmicpc.net/problem/1715) [[Swift]](Swift/BasicExample/CardSorting1715/CardSorting1715/main.swift)
 
 ### 5. 이진 탐색 문제
 - [ ] [수찾기](https://www.acmicpc.net/problem/1920)
