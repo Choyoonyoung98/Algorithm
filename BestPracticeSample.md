@@ -8,11 +8,11 @@
 
 ### 2. 구현
 - [x] [럭키 스트레이트](https://www.acmicpc.net/problem/18406) [[C++]](C++/BasicExample/LuckyStraight18406/LuckyStraight18406/main.cpp) [[Swift]](Swift/BasicExample/LuckyStraight18406/LuckyStraight18406/main.swift)
-- [x] [* 문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) [[C++]](C++/BasicExample/WordCompression60057/WordCompression60057/main.cpp) [[Swift]](Swift/BasicExample/WordCompression60057/WordCompression60057/main.swift)
+- [x] [⭐️문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) [[C++]](C++/BasicExample/WordCompression60057/WordCompression60057/main.cpp) [[Swift]](Swift/BasicExample/WordCompression60057/WordCompression60057/main.swift)
 - [ ] [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
 - [x] [뱀](https://www.acmicpc.net/problem/3190) [[C++]](C++/BasicExample/Snake3190/Snake3190/main.cpp) [[Swift]](Swift/BasicExample/Snake3190/Snake3190/main.swift)
 - [ ] [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
-- [x] [* 치킨 배달](https://www.acmicpc.net/problem/15686) [[C++]](C++/BasicExample/ChickenDelivery15686/ChickenDelivery15686/main.cpp) [[Swift]](Swift/BasicExample/ChickenDelivery15686/ChickenDelivery15686/main.swift)
+- [x] [⭐️치킨 배달](https://www.acmicpc.net/problem/15686) [[C++]](C++/BasicExample/ChickenDelivery15686/ChickenDelivery15686/main.cpp) [[Swift]](Swift/BasicExample/ChickenDelivery15686/ChickenDelivery15686/main.swift)
 - [ ] [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
 ### 3. DFS/BFS
@@ -30,10 +30,10 @@
 - [x] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) [[Swift]](Swift/BasicExample/FailureRate42889/FailureRate42889/main.swift)
 - [x] [카드 정렬하기](https://www.acmicpc.net/problem/1715) [[Swift]](Swift/BasicExample/CardSorting1715/CardSorting1715/main.swift)
 
-### 5. 이진 탐색 문제(*** )
-- [x] [* 수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
+### 5. 이진 탐색 문제(⭐️)
+- [x] [⭐️수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
 - [x] [나무자르기](https://www.acmicpc.net/problem/2805) [[Swift]](Swift/BasicExample/CuttingTree2805/CuttingTree2805/main.swift)
-- [x] [* 공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
+- [x] [⭐️공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
 - [ ] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
 - [ ] [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
 - [ ] [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
