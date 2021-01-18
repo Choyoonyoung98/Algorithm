@@ -30,10 +30,13 @@
 - [x] [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) [[Swift]](Swift/BasicExample/FailureRate42889/FailureRate42889/main.swift)
 - [x] [카드 정렬하기](https://www.acmicpc.net/problem/1715) [[Swift]](Swift/BasicExample/CardSorting1715/CardSorting1715/main.swift)
 
-### 5. 이진 탐색 문제
+### 5. 이진 탐색 문제(*** )
 - [x] [* 수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
 - [x] [나무자르기](https://www.acmicpc.net/problem/2805) [[Swift]](Swift/BasicExample/CuttingTree2805/CuttingTree2805/main.swift)
 - [x] [* 공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
+- [ ] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
+- [ ] [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
+- [ ] [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
 - [ ] [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
 ### 6. 다이나믹 프로그래밍 문제
