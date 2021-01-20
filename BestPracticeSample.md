@@ -34,9 +34,9 @@
 - [x] [⭐️수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
 - [x] [나무자르기](https://www.acmicpc.net/problem/2805) [[Swift]](Swift/BasicExample/CuttingTree2805/CuttingTree2805/main.swift)
 - [x] [⭐️공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
-- [ ] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982)
-- [ ] [입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238)
-- [ ] [징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236)
+- [x] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) [[Swift]](Swift/BasicExample/Budget12982/Budget12982/main.swift)
+- [x] [⭐️입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) [[Swift]](Swift/BasicExample/Immigration43238/Immigration43238/main.swift)
+- [x] [⭐️징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) [[Swift]](Swift/BasicExample/SteppingSone43236/SteppingSone43236/main.swift)
 - [ ] [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
 ### 6. 다이나믹 프로그래밍 문제
