@@ -40,9 +40,9 @@
 - [ ] [⭐️가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
 ### 6. 다이나믹 프로그래밍 문제
-- [ ] [1,2,3 더하기](https://www.acmicpc.net/problem/9095) [[Swift]](Swift/BasicExample/123Plus9095/123Plus9095/main.swift)
-- [ ] [2xn 타일링](https://www.acmicpc.net/problem/11726) [[Swift]](Swift/BasicExample/2NTiling/2NTiling/main.swift)
-- [ ] [⭐️동전](https://www.acmicpc.net/problem/2293) [[Swift]](Swift/BasicExample/Coin2293/Coin2293/main.swift
+- [x] [1,2,3 더하기](https://www.acmicpc.net/problem/9095) [[Swift]](Swift/BasicExample/123Plus9095/123Plus9095/main.swift)
+- [x] [2xn 타일링](https://www.acmicpc.net/problem/11726) [[Swift]](Swift/BasicExample/2NTiling/2NTiling/main.swift)
+- [x] [⭐️동전](https://www.acmicpc.net/problem/2293) [[Swift]](Swift/BasicExample/Coin2293/Coin2293/main.swift)
 - [ ] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [정수 삼각형](https://www.acmicpc.net/problem/1932)
 - [ ] [퇴사](https://www.acmicpc.net/problem/14501)
