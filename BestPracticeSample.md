@@ -37,12 +37,12 @@
 - [x] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) [[Swift]](Swift/BasicExample/Budget12982/Budget12982/main.swift)
 - [x] [⭐️입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) [[Swift]](Swift/BasicExample/Immigration43238/Immigration43238/main.swift)
 - [x] [⭐️징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) [[Swift]](Swift/BasicExample/SteppingSone43236/SteppingSone43236/main.swift)
-- [ ] [가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+- [ ] [⭐️가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
 ### 6. 다이나믹 프로그래밍 문제
-- [ ] [1,2,3 더하기](https://www.acmicpc.net/problem/9095)
-- [ ] [2xn 타일링](https://www.acmicpc.net/problem/11726)
-- [ ] [동전](https://www.acmicpc.net/problem/2293)
+- [ ] [1,2,3 더하기](https://www.acmicpc.net/problem/9095) [[Swift]](Swift/BasicExample/123Plus9095/123Plus9095/main.swift)
+- [ ] [2xn 타일링](https://www.acmicpc.net/problem/11726) [[Swift]](Swift/BasicExample/2NTiling/2NTiling/main.swift)
+- [ ] [⭐️동전](https://www.acmicpc.net/problem/2293) [[Swift]](Swift/BasicExample/Coin2293/Coin2293/main.swift
 - [ ] [RGB거리](https://www.acmicpc.net/problem/1149)
 - [ ] [정수 삼각형](https://www.acmicpc.net/problem/1932)
 - [ ] [퇴사](https://www.acmicpc.net/problem/14501)
