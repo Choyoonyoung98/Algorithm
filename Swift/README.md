@@ -45,3 +45,12 @@ var food_info: [(time: Int, index: Int)] = food_times.enumerated().map{($1, $0)}
 food_info = food_info[i...]
 food_info = food_info[...i]
 ```  
+
+#### - 시간 줄이기
+1) 무분별한 고차함수 사용 줄이기
+2) for문보다 forEach문 사용하기
+3) 전역변수 사용 줄이기
+4) 배열 입력받을 때  
+`var inputList: [Int] = readLine()!.split(separator: " ").map{ Int($0)! }`  
+보다  
+`var inputList: [Int] = readLine()!.split(separator: " ").map{ Int(String($0))! }` 을 사용하면 입력 시간을 줄일 수 있다  
