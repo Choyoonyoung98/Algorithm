@@ -16,7 +16,7 @@
 - [ ] [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
 ### 3. DFS/BFS
-- [x] [* 특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) [[Swift]](Swift/BasicExample/FindCity_18352/FindCity_18352/main.swift)
+- [x] [⭐️특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) [[Swift]](Swift/BasicExample/FindCity_18352/FindCity_18352/main.swift)
 - [x] [연구소](https://www.acmicpc.net/problem/14502) [[Swift]](Swift/BasicExample/Labatory14502/Labatory14502/main.swift)
 - [x] [경쟁적 전염](https://www.acmicpc.net/problem/18405) [[Swift]](Swift/BasicExample/CompetitiveTransmission18405/CompetitiveTransmission18405/main.swift)
 - [x] [괄호변환](https://programmers.co.kr/learn/courses/30/lessons/60058) [[Swift]](Swift/BasicExample/TransferBracket60058/TransferBracket60058/main.swift)  
@@ -43,9 +43,9 @@
 - [x] [1,2,3 더하기](https://www.acmicpc.net/problem/9095) [[Swift]](Swift/BasicExample/123Plus9095/123Plus9095/main.swift)
 - [x] [2xn 타일링](https://www.acmicpc.net/problem/11726) [[Swift]](Swift/BasicExample/2NTiling/2NTiling/main.swift)
 - [x] [⭐️동전](https://www.acmicpc.net/problem/2293) [[Swift]](Swift/BasicExample/Coin2293/Coin2293/main.swift)
-- [ ] [RGB거리](https://www.acmicpc.net/problem/1149)
-- [ ] [정수 삼각형](https://www.acmicpc.net/problem/1932)
-- [ ] [퇴사](https://www.acmicpc.net/problem/14501)
+- [x] [⭐️RGB거리](https://www.acmicpc.net/problem/1149) [[Swift]](Swift/BasicExample/RGBDistance1149/RGBDistance1149/main.swift)
+- [x] [정수 삼각형](https://www.acmicpc.net/problem/1932) [[Swift]](Swift/BasicExample/IntegerTriangle1932/IntegerTriangle1932/main.swift)
+- [x] [⭐️퇴사](https://www.acmicpc.net/problem/14501) [[Swift]](Swift/BasicExample/Quit14501/Quit14501/main.swift)
 - [ ] [병사 배치하기](https://www.acmicpc.net/problem/18353)
 - [ ] 못생긴 수 
 - [ ] [편집 거리](https://www.acmicpc.net/problem/7620)
