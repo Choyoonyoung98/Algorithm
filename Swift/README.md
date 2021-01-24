@@ -15,7 +15,7 @@ var arr2 = Array(repeating: 0, count: 3) //[0, 0, 0]
 var arr3 = [[Int]](repeating: [Int](repeating: 1, count: 3), count: 3) // [[1,1,1],[1,1,1],[1,1,1]]
 ```
 
-#### - [문자열 조작](String.playground/Contents.swift)  
+#### - [문자열 조작](Grammar/String.playground/Contents.swift)  
 
 #### - 정렬
 ```
