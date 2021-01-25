@@ -46,12 +46,12 @@
 - [x] [⭐️RGB거리](https://www.acmicpc.net/problem/1149) [[Swift]](Swift/BasicExample/RGBDistance1149/RGBDistance1149/main.swift)
 - [x] [정수 삼각형](https://www.acmicpc.net/problem/1932) [[Swift]](Swift/BasicExample/IntegerTriangle1932/IntegerTriangle1932/main.swift)
 - [x] [⭐️퇴사](https://www.acmicpc.net/problem/14501) [[Swift]](Swift/BasicExample/Quit14501/Quit14501/main.swift)
-- [ ] [병사 배치하기](https://www.acmicpc.net/problem/18353)
+- [x] [⭐️(LIS)병사 배치하기](https://www.acmicpc.net/problem/18353) [[Swift]](Swift/BasicExample/SoldierPlacement18353/SoldierPlacement18353/main.swift)
 - [ ] 못생긴 수 
-- [ ] [편집 거리](https://www.acmicpc.net/problem/7620)
+- [ ] [⭐️(LCS)편집 거리](https://www.acmicpc.net/problem/7620)
 
 ### 7. 최단 경로
-- [ ] [플로이드](https://www.acmicpc.net/problem/11404)
+- [x] [플로이드](https://www.acmicpc.net/problem/11404) [[Swift]](Swift/BasicExample/Floyd11404/Floyd11404/main.swift)
 - [ ] 정확한 순위
 - [ ] 화성 탐사
 - [ ] 숨바꼭질
