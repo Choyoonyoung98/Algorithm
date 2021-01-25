@@ -157,16 +157,42 @@ public func merge(_ left: Int, _ right: Int) {
     for index in left...right { mergeSortedArray[index] = array2[index] }
 }
 
-var heapSortedArray = [Int]()
-public func heapSortSolution() {
-    heapSortedArray = array
-    
-}
 /*힙소트*/
 //최선: O(n)
 //평균/최악: O(nlogn)
-public func heapSort(_ array: [Int]) -> [Int] {
-    var array: [Int] = array
-    
-    return array
+var heapSortedArray: [Int] = array
+heapSort()
+print("[힙소트]: \(heapSortedArray)")
+
+public func heapSort(){
+    heapify(heapSortedArray.count)
+    reheapify()
+}
+
+func parent( _ index: Int ) -> Int { return (index-1) / 2 }
+//부모노드가 자식노드보다 큰 값을 가지도록 SWAP하는 함수
+public func heapify(_ end: Int ) {
+    for i in 1..<end {
+        var child = i
+        while child > 0 {
+            let root = parent(child)
+            if heapSortedArray[root] < heapSortedArray[child] { //부모가 자식노드보다 커지도록 SWAP한다
+                let temp = heapSortedArray[root]
+                heapSortedArray[root] = heapSortedArray[child]
+                heapSortedArray[child] = temp
+            }
+            child = root
+        }
+    }
+}
+
+//가장 큰 값을 가진 루트노드와 정렬되어 있지 않은 노드 중에서 가장 끝에 있는 노드끼리 SWAP한 후 재heapify()
+public func reheapify() {
+    for i in (1..<heapSortedArray.count).reversed() {
+        let temp = heapSortedArray[0]
+        heapSortedArray[0] = heapSortedArray[i]
+        heapSortedArray[i] = temp
+        
+        heapify(i)
+    }
 }
