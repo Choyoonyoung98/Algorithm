@@ -47,13 +47,13 @@
 - [x] [정수 삼각형](https://www.acmicpc.net/problem/1932) [[Swift]](Swift/BasicExample/IntegerTriangle1932/IntegerTriangle1932/main.swift)
 - [x] [⭐️퇴사](https://www.acmicpc.net/problem/14501) [[Swift]](Swift/BasicExample/Quit14501/Quit14501/main.swift)
 - [x] [⭐️(LIS)병사 배치하기](https://www.acmicpc.net/problem/18353) [[Swift]](Swift/BasicExample/SoldierPlacement18353/SoldierPlacement18353/main.swift)
-- [x] [⭐️못생긴 수]
+- [x] ⭐️못생긴 수
 > 못생긴 수란 오직 2,3,5만을 소인수로 가지는 수를 의미합니다. 다시 말해 오직 2,3,5를 약수로 가지는 합성수를 의미합니다. 1은 못생긴 수라고 가정합니다. 따라서 못생긴 수들은 {1,2,3,4,5,6,8,9,10,12,15, ...} 순으로 이어지게 됩니다. 이때 n번째 못생긴 수를 찾는 프로그램을 작성하세요, 예를 들어 11번째 못생긴 수는 15입니다.  
 - [ ] [⭐️(LCS)편집 거리](https://www.acmicpc.net/problem/7620)
 
 ### 7. 최단 경로
 - [x] [플로이드](https://www.acmicpc.net/problem/11404) [[Swift]](Swift/BasicExample/Floyd11404/Floyd11404/main.swift)
-- [x] [⭐️정확한 순위] [[Swift]](Swift/BasicExample/ExactRanking38/ExactRanking38/main.swift)
+- [x] ⭐️정확한 순위 [[Swift]](Swift/BasicExample/ExactRanking38/ExactRanking38/main.swift)
 > 선생님은 시험을 본 학생 N명의 성적을 분실하고, 성적을 비교한 결과의 일부만을 가지고 있습니다. 
 첫 번째 줄에 학생들의 수 N(2<= N <= 500)과 두 학생의 성적을 비교한 횟수(2<= M <= 10000)이 주어집니다. 
 다음 M개의 줄에는 두 학생의 성적을 비교한 결과를 나타내는 두 양의 정수 A와 B가 주어집니다. 이는 A번 학생의 성적이 B번 학생보다 낮다는 것을 의미합니다. 이러한 문제에 대해 첫째 줄에 성적 순위를 정확하게 알 수 있는 학생이 몇명인지 출력합니다. 
