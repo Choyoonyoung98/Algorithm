@@ -146,3 +146,72 @@ public struct PriorityQueue2<T: Equatable> {
         }
     }
 }
+
+
+//
+//public struct QueueItem<T>: Comparable {
+//    
+//    public var value: (y: Int, x: Int)
+//    public var priority: Int
+//    
+//    public init(value: (y: Int, x: Int), priority: Int) {
+//        self.value = value
+//        self.priority = priority
+//    }
+//    
+//    public static func < (lhs: QueueItem<T>, rhs: QueueItem<T>) -> Bool {
+//        return lhs.priority < rhs.priority
+//    }
+//    public static func == (lhs: QueueItem<T>, rhs: QueueItem<T>) -> Bool {
+//        return lhs.priority == rhs.priority
+//    }
+//}
+//public struct PriorityQueue<T: Equatable> {
+//    public let ordered: (QueueItem<T>, QueueItem<T>) -> Bool
+//    public var data = Array<QueueItem<T>>()
+//    public init(isUpper: Bool = true) {
+//        if isUpper { ordered = { $0.priority > $1.priority } }
+//        else { ordered = { $0.priority < $1.priority }}
+//    }
+//    public func front() -> QueueItem<T>? { return data.first }
+//    public var count: Int { return data.count }
+//    public var isEmpty: Bool { return data.isEmpty }
+//    
+//    public mutating func push(_ element: QueueItem<T>) {
+//        
+//        data.append(element)
+//        swim(data.count - 1)
+//    }
+//    public mutating func pop() {
+//        if data.count == 1 {
+//            data.removeFirst()
+//            return
+//        }
+//        data.swapAt(0, data.count - 1)
+//        data.removeLast()
+//        sink(0)
+//    }
+//    
+//    func parent(_ index: Int) -> Int { return (index - 1) / 2 }
+//    func child(_ index: Int) -> Int { return index * 2 + 1 }
+//    //부모를 찾아서
+//    public mutating func swim(_ index: Int) {
+//        var index = index
+//        while index > 0 && ordered(data[parent(index)], data[index]) {
+//            data.swapAt(index, parent(index))
+//            index = parent(index)
+//        }
+//    }
+//    
+//    //자식을 찾아서
+//    public mutating func sink(_ index: Int) {
+//        var index = index
+//        var j = child(index)
+//        while j < data.count {
+//            if j + 1 < data.count && ordered(data[j], data[j + 1]) { j += 1 }
+//            if !ordered(data[index], data[j]) { break }
+//            data.swapAt(index, j)
+//            index = j
+//        }
+//    }
+//}
