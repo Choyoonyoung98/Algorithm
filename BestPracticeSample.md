@@ -2,7 +2,7 @@
 
 ### 1. 그리디
 - [x] [뒤집기](https://www.acmicpc.net/problem/1439) [[C++]](C++/BasicExample/Flip1439_C++/Flip1439_C++/main.cpp) [[Swift]](Swift/BasicExample/FlipWord1439/FlipWord1439/main.swift)  
-- [x] [ATM](https://www.acmicpc.net/problem/11399) [[C++]](C++/BasicExample/ATM11399/ATM11399/main.cpp) [[Swift]](Swift/BasicExample/ATM11399/ATM11399/main.swift)  
+- [x] [ATM](https://www.acmicpc.net/problem/11399) [[C++]](C++/BasicExample/ATM11399/ATM11399/main.cpp) [[Swift]](Swift/BasicExample/ATM11399/ATM11399/main.swift) 
 - [x] [동전](https://www.acmicpc.net/problem/11047) [[C++]](C++/BasicExample/Coin11047/Coin11047/main.cpp) [[Swift]](Swift/BasicExample/Coin11047/Coin11047/main.swift)  
 - [x] [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) [[C++]](C++/BasicExample/MujiMukbang42891/MujiMukbang42891/main.cpp) [[Swift]](Swift/BasicExample/MujiMukbang42891/MujiMukbang42891/main.swift)  
 
@@ -64,7 +64,7 @@
 - [x] 숨바꼭질 [[Swift]](Swift/BasicExample/HideAndSeek40/HideAndSeek40/main.swift)
 
 ### 8. 그래프 이론
-- [x] 여행 계획
+- [x] 여행 계획 [[Swift]](Swift/BasicExample/TravelPlan41/TravelPlan41/main.swift)
 > 첫째 줄에 여행지의 수 N과 여행 계획에 속한 도시의 수 M이 주어집니다. 다음 N개의 줄에 걸쳐 N x N 행렬을 통해 임의의 두 여행지가 서로 연결되어 있는지 여부가 주어집니다.  
 그 값이 1이라면 서로 연결되었다는 의미이며, 0이라면 서로 연결되어 있지 않다는 의미입니다. 마지막 줄에 한올이의 여행 계획에 포함된 여행지의 번호들이 주어지며 공백으로 구분합니다.  
 첫째 줄에 한울이의 여행 계획이 가능하다면 YES, 불가능하다면 NO를 출력합니다.  
