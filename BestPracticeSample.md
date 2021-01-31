@@ -69,7 +69,7 @@
 그 값이 1이라면 서로 연결되었다는 의미이며, 0이라면 서로 연결되어 있지 않다는 의미입니다. 마지막 줄에 한올이의 여행 계획에 포함된 여행지의 번호들이 주어지며 공백으로 구분합니다.  
 첫째 줄에 한울이의 여행 계획이 가능하다면 YES, 불가능하다면 NO를 출력합니다.  
 - [x] ⭐️탐승구  [[Swift]](Swift/BasicExample/Gate42/Gate42/main.swift)
-- [ ] 어두운 길
+- [x] 어두운 길  [[Swift]](Swift/BasicExample/DarkStreet43/DarkStreet43/main.swift)
 - [ ] [행성 터널](https://www.acmicpc.net/problem/2887)
 - [ ] [최종 순위](https://www.acmicpc.net/problem/3665)
 
