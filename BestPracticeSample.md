@@ -71,7 +71,7 @@
 - [x] ⭐️탐승구  [[Swift]](Swift/BasicExample/Gate42/Gate42/main.swift)
 - [x] 어두운 길  [[Swift]](Swift/BasicExample/DarkStreet43/DarkStreet43/main.swift)
 - [x] [행성 터널](https://www.acmicpc.net/problem/2887)  [[Swift]](Swift/BasicExample/PlanetTunnel2887/PlanetTunnel2887/main.swift)
-- [ ] [최종 순위](https://www.acmicpc.net/problem/3665)
+- [x] [최종 순위](https://www.acmicpc.net/problem/3665)  [[Swift]](Swift/BasicExample/FinalRanking3665/FinalRanking3665/main.swift)
 
 ### 9. 투포인터
 - [ ] [수들의 합2](https://www.acmicpc.net/problem/2003)
