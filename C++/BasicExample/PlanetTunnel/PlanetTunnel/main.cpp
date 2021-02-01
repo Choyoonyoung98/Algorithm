@@ -72,8 +72,9 @@ int solution() {
         edges.push_back({y[i+1].first - y[i].first, {y[i].second, y[i+1].second}});
         edges.push_back({z[i+1].first - z[i].first, {z[i].second, z[i+1].second}});
     }
-    sort(edges.begin(), edges.end()); //간선을 오름차순으로 정렬
     
+    sort(edges.begin(), edges.end()); //간선을 오름차순으로 정렬
+    for(int i=0; i<edges.size(); i++) { cout<<edges[i].first<<endl;}
     for(int i=0; i<edges.size(); i++) {
         int cost = edges[i].first;
         int a = edges[i].second.first;
