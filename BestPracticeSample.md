@@ -47,7 +47,7 @@
 - [x] [정수 삼각형](https://www.acmicpc.net/problem/1932) [[Swift]](Swift/BasicExample/IntegerTriangle1932/IntegerTriangle1932/main.swift)
 - [x] [⭐️퇴사](https://www.acmicpc.net/problem/14501) [[Swift]](Swift/BasicExample/Quit14501/Quit14501/main.swift)
 - [x] [⭐️(LIS)병사 배치하기](https://www.acmicpc.net/problem/18353) [[Swift]](Swift/BasicExample/SoldierPlacement18353/SoldierPlacement18353/main.swift)
-- [x] ⭐️못생긴 수
+- [x] ⭐️못생긴 수 [[Swift]](Swift/BasicExample/UglyNumber35/UglyNumber35/main.swift)
 > 못생긴 수란 오직 2,3,5만을 소인수로 가지는 수를 의미합니다. 다시 말해 오직 2,3,5를 약수로 가지는 합성수를 의미합니다. 1은 못생긴 수라고 가정합니다. 따라서 못생긴 수들은 {1,2,3,4,5,6,8,9,10,12,15, ...} 순으로 이어지게 됩니다. 이때 n번째 못생긴 수를 찾는 프로그램을 작성하세요, 예를 들어 11번째 못생긴 수는 15입니다.  
 - [ ] [⭐️(LCS)편집 거리](https://www.acmicpc.net/problem/7620)
 
@@ -70,7 +70,7 @@
 첫째 줄에 한울이의 여행 계획이 가능하다면 YES, 불가능하다면 NO를 출력합니다.  
 - [x] ⭐️탐승구  [[Swift]](Swift/BasicExample/Gate42/Gate42/main.swift)
 - [x] 어두운 길  [[Swift]](Swift/BasicExample/DarkStreet43/DarkStreet43/main.swift)
-- [ ] [행성 터널](https://www.acmicpc.net/problem/2887)
+- [x] [행성 터널](https://www.acmicpc.net/problem/2887)  [[Swift]](Swift/BasicExample/PlanetTunnel2887/PlanetTunnel2887/main.swift)
 - [ ] [최종 순위](https://www.acmicpc.net/problem/3665)
 
 ### 9. 투포인터
