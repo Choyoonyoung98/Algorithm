@@ -74,7 +74,7 @@
 - [x] [최종 순위](https://www.acmicpc.net/problem/3665)  [[Swift]](Swift/BasicExample/FinalRanking3665/FinalRanking3665/main.swift)
 
 ### 9. 투포인터
-- [ ] [수들의 합2](https://www.acmicpc.net/problem/2003)
+- [x] [수들의 합2](https://www.acmicpc.net/problem/2003)  [[Swift]](Swift/BasicExample/SumOfNumbers(2)2003/SumOfNumbers(2)2003/main.swift)
 - [ ] [소수의 연속합](https://www.acmicpc.net/problem/1644)
 - [ ] [부분합](https://www.acmicpc.net/problem/1806)
 - [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
