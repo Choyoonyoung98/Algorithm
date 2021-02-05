@@ -46,6 +46,10 @@ food_info = food_info[i...]
 food_info = food_info[...i]
 ```  
 
+#### - stride  
+a부터 b까지 p의 보폭으로 for문을 돌릴 수 있다.  
+`for j in stride(from: a, through: b, by: p) { }`  
+
 #### - 시간 줄이기
 1) 무분별한 고차함수 사용 줄이기
 2) for문보다 forEach문 사용하기
