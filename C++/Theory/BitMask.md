@@ -38,4 +38,4 @@ void insert(string* key, int mask, int point) { //*
 3. data의 i번째 요소를 제거  
 ```data & ~(1 << i)```
 4. data의 i번째 요소를 변경  
-```data ^ (1 << i)
+```data ^ (1 << i)```
