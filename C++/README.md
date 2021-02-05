@@ -100,3 +100,6 @@ BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.
 
 #### 7) 에라스토네스의 체
 - [에라스토네스의 체](Theory/PrimeNumber.md)
+
+#### 8) 비트 단위 연산자(Bitwise operators)
+- [비트 마스크 자세히 알아보기](Theory/BitMask.md)
