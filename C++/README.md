@@ -44,7 +44,7 @@ c++문법 기반의 알고리즘 예제
 👉🏻Basic
 - [입/출력](Grammar/Input_Output/Input_Output/main.cpp)
 - [함수 호출](Grammar/Function_Call/Function_Call/main.cpp)
-- [이분 탐색[(Grammar/Bound.md)
+- [이분 탐색 범위](Grammar/Bound.md)
   
 👉🏻String
 - [string 기본 함수](Grammar/String_Chars/String_Chars/main.cpp)
