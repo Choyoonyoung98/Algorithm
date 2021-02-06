@@ -76,8 +76,8 @@
 ### 9. 투포인터
 - [x] [수들의 합2](https://www.acmicpc.net/problem/2003)  [[Swift]](Swift/BasicExample/SumOfNumbers(2)2003/SumOfNumbers(2)2003/main.swift)
 - [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)  [[Swift]](Swift/BasicExample/SequenceSumOfPrimeNumbers1644/SequenceSumOfPrimeNumbers1644/main.swift)
-- [ ] [부분합](https://www.acmicpc.net/problem/1806)
-- [ ] [수 고르기](https://www.acmicpc.net/problem/2230)
+- [x] [부분합](https://www.acmicpc.net/problem/1806)  [[Swift]](Swift/BasicExample/SubTotal1806/SubTotal1806/main.swift)
+- [x] [수 고르기](https://www.acmicpc.net/problem/2230)  [[Swift]](Swift/BasicExample/PickNumber2230/PickNumber2230/main.swift)
 - [ ] [다이어트](https://www.acmicpc.net/problem/1484)
 - [ ] [공롱 수열](https://www.acmicpc.net/problem/2038)
 
