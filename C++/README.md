@@ -76,7 +76,27 @@ c++문법 기반의 알고리즘 예제
 - [Queue](Grammar/Queue/Queue/main.cpp)
 - [Prority_Queue](Grammar/Priority_Queue/Priority_Queue/main.cpp)
 
-* struct 데이터를 
+**+) Priority Queue 연산** 
+> struct 데이터를 우선순위 큐에 넣어 비교 연산이 가능하게 하고 싶을 경우
+```
+struct Point {
+    int y;
+    int x;
+    int cost;
+    
+    Point(int _y, int _x, int _cost) {
+        y = _y;
+        x = _x;
+        cost = _cost;
+    };
+    Point(int _y, int _x) {
+        y = _y;
+        x = _x;
+    };
+};
+
+bool operator < (Point a, Point b) { return a.cost > b.cost; }
+```
 
 <hr/>
 
