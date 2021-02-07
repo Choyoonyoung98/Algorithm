@@ -126,3 +126,6 @@ BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.
 
 #### 8) 비트 단위 연산자(Bitwise operators)
 - [비트 마스크 자세히 알아보기](Theory/BitMask.md)
+
+#### 9) DFS + Dijkstra
+- [DFS + Dijkstra에 대해 알아보기](Theory/DFS_Dijkstra.md)
