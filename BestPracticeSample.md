@@ -78,7 +78,7 @@
 - [x] [소수의 연속합](https://www.acmicpc.net/problem/1644)  [[Swift]](Swift/BasicExample/SequenceSumOfPrimeNumbers1644/SequenceSumOfPrimeNumbers1644/main.swift)
 - [x] [부분합](https://www.acmicpc.net/problem/1806)  [[Swift]](Swift/BasicExample/SubTotal1806/SubTotal1806/main.swift)
 - [x] [수 고르기](https://www.acmicpc.net/problem/2230)  [[Swift]](Swift/BasicExample/PickNumber2230/PickNumber2230/main.swift)
-- [ ] [다이어트](https://www.acmicpc.net/problem/1484)
+- [x] [다이어트](https://www.acmicpc.net/problem/1484)  [[Swift]](Swift/BasicExample/Diet1484/Diet1484/main.swift)
 - [ ] [공롱 수열](https://www.acmicpc.net/problem/2038)
 
 ### 10. 부루트 포스
