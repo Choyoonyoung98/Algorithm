@@ -76,6 +76,8 @@ c++문법 기반의 알고리즘 예제
 - [Queue](Grammar/Queue/Queue/main.cpp)
 - [Prority_Queue](Grammar/Priority_Queue/Priority_Queue/main.cpp)
 
+* struct 데이터를 
+
 <hr/>
 
 ### 문제 유형에 따른 알고리즘 채택
