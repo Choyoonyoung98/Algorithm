@@ -90,6 +90,9 @@
 - [ ] [내려가기](https://www.acmicpc.net/problem/2096)
 - [ ] [회전초밥](https://www.acmicpc.net/problem/2531)
 
+> 투 포인터와 슬라이딩 윈도우는 배열의 처음부터 순차적으로 탐색하고 **부분 배열** 을 꺼내본다는 점에서는 같습니다.  
+하지만 투 포인터는 부분 배열의 길이가 **가변적(늘었다 줄었다)** 이지만, 슬라이딩 윈도우는 부분 배열의 길이가 **고정적(일정)** 입니다.
+
 #### 12. 문자열
 - [x] [괄호](https://www.acmicpc.net/problem/9012) [[Swift]](Swift/BasicExample/Bracket9012/Bracket9012/main.swift)
 - [x] [그룹 단어 체커](https://www.acmicpc.net/problem/1316) [[Swift]](Swift/BasicExample/GroupWordChecker/GroupWordChecker/main.swift)
