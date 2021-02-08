@@ -79,10 +79,9 @@
 - [x] [부분합](https://www.acmicpc.net/problem/1806)  [[Swift]](Swift/BasicExample/SubTotal1806/SubTotal1806/main.swift)
 - [x] [수 고르기](https://www.acmicpc.net/problem/2230)  [[Swift]](Swift/BasicExample/PickNumber2230/PickNumber2230/main.swift)
 - [x] [다이어트](https://www.acmicpc.net/problem/1484)  [[Swift]](Swift/BasicExample/Diet1484/Diet1484/main.swift)
-- [ ] [공롱 수열](https://www.acmicpc.net/problem/2038)
 
 ### 10. 부루트 포스
-- [ ] [분해합](https://www.acmicpc.net/problem/2231)
+- [x] [분해합](https://www.acmicpc.net/problem/2231)  [[Swift]](Swift/BasicExample/Decomposition2231/Decomposition2231/main.swift)
 - [ ] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [ ] [블랙잭](https://www.acmicpc.net/problem/2798)
 
