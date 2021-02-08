@@ -81,7 +81,7 @@
 - [x] [다이어트](https://www.acmicpc.net/problem/1484)  [[Swift]](Swift/BasicExample/Diet1484/Diet1484/main.swift)
 
 ### 10. 부루트 포스
-- [x] [분해합](https://www.acmicpc.net/problem/2231)  [[Swift]](Swift/BasicExample/Decomposition2231/Decomposition2231/main.swift)
+- [x] [⭐️분해합](https://www.acmicpc.net/problem/2231)  [[Swift]](Swift/BasicExample/Decomposition2231/Decomposition2231/main.swift)
 - [ ] [일곱 난쟁이](https://www.acmicpc.net/problem/2309)
 - [ ] [블랙잭](https://www.acmicpc.net/problem/2798)
 
