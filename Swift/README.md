@@ -76,10 +76,21 @@ func pow(_ x: Int, _ n: Int) -> Int {
 
 #### - 해당 숫자값 + 각 자리의 숫자 합 구하기
 
+1)  
 ```
 func divideSum(_ n: Int) -> Int {
     return String(n).reduce(n) { $0 + Int(String($1))! } //(*)
 }
+```
+
+2)  
+```
+var result: Int = 0
+while K > 0 {
+    result += K % 10
+    K /= 10
+}
+print(result)
 ```
 
 #### - 시간 줄이기
