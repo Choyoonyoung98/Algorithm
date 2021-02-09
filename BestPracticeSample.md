@@ -86,8 +86,8 @@
 - [ ] [블랙잭](https://www.acmicpc.net/problem/2798)
 
 ### 11. 슬라이딩 윈도우
-- [ ] [N번째 큰 수](https://www.acmicpc.net/problem/2075)
-- [ ] [내려가기](https://www.acmicpc.net/problem/2096)
+- [x] [N번째 큰 수](https://www.acmicpc.net/problem/2075)  [[Swift]](Swift/BasicExample/NthBiggestNumber2075/NthBiggestNumber2075/main.swift)
+- [x] [내려가기](https://www.acmicpc.net/problem/2096)  [[Swift]](Swift/BasicExample/GoDown2096/GoDown2096/main.swift)
 - [ ] [회전초밥](https://www.acmicpc.net/problem/2531)
 
 > 투 포인터와 슬라이딩 윈도우는 배열의 처음부터 순차적으로 탐색하고 **부분 배열** 을 꺼내본다는 점에서는 같습니다.  
