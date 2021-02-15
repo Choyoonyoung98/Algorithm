@@ -28,7 +28,7 @@ let range2 = str.index(str.startIndex, offsetBy: 0) ...
 let range3 = str.index(str.startIndex, offsetBy: 0) ..<
     str.index(str.endIndex, offsetBy:  -1) // -1이면 제일 마지막 문자에 접근한다
 let rangeStr = str[range2]
-let rangeStr2 = str[2...str.index(after: 2)]
+let rangeStr2 = str[s.index(s.startIndex, offsetBy: i)...str.index(after: 2)]
 
 //[문자 대소문자 변경]
 var testStr = "yoonyoung"
