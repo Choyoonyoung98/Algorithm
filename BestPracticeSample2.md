@@ -34,7 +34,7 @@
 - [ ] [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [ ] [House Robber](https://leetcode.com/problems/house-robber/)
 - [ ] [House Robber II](https://leetcode.com/problems/house-robber-ii/)
-- [ ] [Decode Ways](https://leetcode.com/problems/decode-ways/)
+- [x] [Decode Ways](https://leetcode.com/problems/decode-ways/)[Swift](../Swift/BasicExample2/DecodeWays91/DecodeWays91/main.swift)
 - [ ] [Unique Paths](https://leetcode.com/problems/unique-paths/)
 - [ ] [Jump Game](https://leetcode.com/problems/jump-game/)
 
