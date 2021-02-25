@@ -30,6 +30,14 @@ import Foundation
 //    }
 //}
 
+//
+//func numDecodings(_ s: String) -> Int {
+//    makeCombination(s, "", 0)
+//    return answer
+//}
+//
+
+
 func numDecodings(_ s: String) -> Int {
         var memo = [Int](repeating: 0, count: s.count+1)
         memo[s.count] = 1
@@ -43,12 +51,6 @@ func numDecodings(_ s: String) -> Int {
         
         return memo[0]
     }
-    
-func numDecodings(_ s: String) -> Int {
-    makeCombination(s, "", 0)
-    return answer
-}
-
 
 let str = "12345"
 print(str[str.index(str.startIndex, offsetBy: 1)...str.index(after: str.index(str.startIndex, offsetBy: 1))])
