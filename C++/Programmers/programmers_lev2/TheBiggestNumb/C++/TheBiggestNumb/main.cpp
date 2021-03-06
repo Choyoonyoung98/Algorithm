@@ -20,9 +20,7 @@ bool cmp(const string &a, const string &b) {
 string solution(vector<int> numbers) {
     string answer = "";
     vector<string> s_answer;
-    for(int i=0; i<numbers.size(); i++) {
-        s_answer.push_back(to_string(numbers[i]));
-    }
+    for(int i=0; i<numbers.size(); i++) s_answer.push_back(to_string(numbers[i]));
     sort(s_answer.begin(), s_answer.end(), cmp);
     
     for(string str: s_answer) {
