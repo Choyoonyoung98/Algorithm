@@ -18,3 +18,19 @@ string solution(vector<int> numbers) {
     return answer;
 }
 ```
+
+2. [점프게임](https://leetcode.com/problems/jump-game/)
+```
+func solution2(_ nums: [Int] ) -> Bool {
+    var reachDistance = 0
+    
+    //for i in 0..<reachDistance(x)
+    for (i, n) in nums.enumerated() {
+        if reachDistance < i { return false }
+        let jumpCnt = n
+        if i+jumpCnt >= nums.count - 1 { return true }
+        reachDistance = max(reachDistance, i+jumpCnt)
+    }
+    return false
+}
+```
