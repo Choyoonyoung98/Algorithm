@@ -65,3 +65,6 @@ int solution() {
     return answer;
 }
 ```
+
+4. [30](https://www.acmicpc.net/problem/10610)
+- 30이 되려면 숫자의 마지막이 0이면서 + 숫자들의 합이 3의 배수가 되어야 한다.
