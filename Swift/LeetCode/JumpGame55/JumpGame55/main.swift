@@ -16,6 +16,7 @@ func solution1(_ nums: [Int] ) -> Bool {
     
     for (i, n) in nums.enumerated() {
         if !reach[i] { continue }
+        //라고 구현했지만, 도달할 수 없는 i가 나오면 더이상 나아갈 수 없는 것과 마찬가지 이기 때문에 break가 더 맞는 것처럼 보인다
         if n == 0 { continue }
         for j in 1...n {
             let nextIndex = i + j
@@ -27,15 +28,16 @@ func solution1(_ nums: [Int] ) -> Bool {
 }
 
 //O(N)
+//reach bool 배열 -> 최대 도달할 수 있는 거리 프로퍼티 reachDistance
+//뛸 수 있는 점프의 완전탐색 -> 최대 점프를 뛰었을 때의 결과 확인 후 reachdistance 업데이트
 func solution2(_ nums: [Int] ) -> Bool {
     var reachDistance = 0
     
-    //for i in 0..<reachDistance(x)
     for (i, n) in nums.enumerated() {
         if reachDistance < i { return false }
         let jumpCnt = n
-        if i+jumpCnt >= nums.count - 1 { return true }
-        reachDistance = max(reachDistance, i+jumpCnt)
+        if i + jumpCnt >= nums.count - 1 { return true }
+        reachDistance = max(reachDistance, i + jumpCnt)
     }
     return false
 }
