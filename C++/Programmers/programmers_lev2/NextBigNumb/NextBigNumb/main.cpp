@@ -86,6 +86,7 @@ int getCntNumb(int n) {
     }
     return nCnt;
 }
+
 int solution(int n) {
     int answer = 0;
     int nNum1Cnt = getCntNumb(n); //78을 이진법으로 했을 때 1의 갯수 반환
