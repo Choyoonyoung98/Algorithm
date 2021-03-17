@@ -129,3 +129,5 @@ BFS란 너비 우선 탐색이고, DFS는 깊이 우선 탐색입니다.
 
 #### 9) DFS + Dijkstra
 - [DFS + Dijkstra에 대해 알아보기](Theory/DFS_Dijkstra.md)
+
+#### 10) [10진법 -> N진법으로 변환하는 방법](Theory/Decimal.md)
