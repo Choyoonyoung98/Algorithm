@@ -33,16 +33,22 @@
 ### 5. 이진 탐색 문제(⭐️)
 - [x] [⭐️수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
 - [x] [나무자르기](https://www.acmicpc.net/problem/2805) [[Swift]](Swift/BasicExample/CuttingTree2805/CuttingTree2805/main.swift)
-- [x] [⭐️공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
-> C개의 공유기를 N개의 집에 적당히 설치해서 가장 인접한 두 공유기 사이의 거리를 최대로 하는 알고리즘  
+- [x] [⭐️⭐️공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
+> C개의 공유기를 N개의 집에 적당히 설치해서 가장 인접한 두 공유기 사이의 거리를 최대로 하는 문제  
 > minDistance = 0, maxDistance = 집 간의 최대 거리로 두어 midDistance를 기준으로 만든다.  
 > 집 간의 거리가 midDistance보다 크게 될 때, 공유기를 설치해본다.   
 > 설치된 공유기의 갯수가 C개보다 클 경우 maxDistance = midDistance - 1  
 > 설치된 공유기의 갯수가 C개보다 같거나 작을 경우 answer에 max값을 담아준 뒤, minDistance = midDistance + 1    
 
 - [x] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) [[Swift]](Swift/BasicExample/Budget12982/Budget12982/main.swift)
-- [x] [⭐️입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) [[Swift]](Swift/BasicExample/Immigration43238/Immigration43238/main.swift)
-- [x] [⭐️징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) [[Swift]](Swift/BasicExample/SteppingSone43236/SteppingSone43236/main.swift)
+- [x] [⭐️⭐️입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) [[Swift]](Swift/BasicExample/Immigration43238/Immigration43238/main.swift)
+> 모든 사람이 심사를 받는데 걸리는 시간의 최소값을 return하는 문제  
+> low = 0, high = 모든 인원 수 * 가장 긴 심사 시간  
+> time에 대한 for문을 돌려 전체 심사시간(mid) 동안 담당할 수 있는 수를 sum에 모두 더한다  
+> 이 sum이 n(고객 수)보다 같거나 크면, high = mid - 1 , answer를 업데이트해준다.  
+> 이 sum(담당할 수 있는 고객의 총 수)가 n(실제 고객 수)보다 작으면 low = mid + 1로 변경해준다.  
+
+- [x] [⭐️⭐️⭐️징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) [[Swift]](Swift/BasicExample/SteppingSone43236/SteppingSone43236/main.swift)
 - [ ] [⭐️가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
 ### 6. 다이나믹 프로그래밍 문제
