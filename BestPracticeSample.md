@@ -34,6 +34,12 @@
 - [x] [⭐️수찾기](https://www.acmicpc.net/problem/1920) [[Swift]](Swift/BasicExample/FindingNumber1920/FindingNumber1920/main.swift)
 - [x] [나무자르기](https://www.acmicpc.net/problem/2805) [[Swift]](Swift/BasicExample/CuttingTree2805/CuttingTree2805/main.swift)
 - [x] [⭐️공유기 설치](https://www.acmicpc.net/problem/2110) [[Swift]](Swift/BasicExample/InstallRouter/InstallRouter/main.swift)
+> C개의 공유기를 N개의 집에 적당히 설치해서 가장 인접한 두 공유기 사이의 거리를 최대로 하는 알고리즘  
+> minDistance = 0, maxDistance = 집 간의 최대 거리로 두어 midDistance를 기준으로 만든다.  
+> 집 간의 거리가 midDistance보다 크게 될 때, 공유기를 설치해본다.   
+> 설치된 공유기의 갯수가 C개보다 클 경우 maxDistance = midDistance - 1  
+> 설치된 공유기의 갯수가 C개보다 같거나 작을 경우 answer에 max값을 담아준 뒤, minDistance = midDistance + 1    
+
 - [x] [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) [[Swift]](Swift/BasicExample/Budget12982/Budget12982/main.swift)
 - [x] [⭐️입국심사](https://programmers.co.kr/learn/courses/30/lessons/43238) [[Swift]](Swift/BasicExample/Immigration43238/Immigration43238/main.swift)
 - [x] [⭐️징검다리](https://programmers.co.kr/learn/courses/30/lessons/43236) [[Swift]](Swift/BasicExample/SteppingSone43236/SteppingSone43236/main.swift)
