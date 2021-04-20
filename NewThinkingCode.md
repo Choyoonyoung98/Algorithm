@@ -83,3 +83,35 @@ int solution() {
 
 8. [방금 그 곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 > C# 또한 하나의 단어(음)으로 판단해야하기 때문에 C#을 소문자 c로 변환해서 풀이하니 더욱 간단해졌다!!! 
+
+9. [가운데를 말해요](https://www.acmicpc.net/problem/1655)
+> 최대힙과 최소힙을 이용한 풀이
+> ```priority_queue<int> maxHeap```, ```priority_queue<int, vector<int>, greater<int>> minHeap```
+> 매번 값이 추가될 때마다 중간값을 출력해야하는 상황에서 시간초과를 피할 수 있는 방법
+> 1. 최대힙의 크기는 최소힙의 크기와 같거나 하나 더 크다
+> 2. 최대힙의 최대 원소는 최소힙의 최소 원소보다 작거나 같다
+> 3. 이 때 알고리즘에 맞지 않다면 최대힙, 최소힙의 가장 위의 값을 swap해준다.  
+
+```
+ int solution(int x) {
+
+    if(maxHeap.empty() || (maxHeap.size() == minHeap.size())) maxHeap.push(x);
+    else minHeap.push(x);
+    
+    //minHeap, maxHeap 모두 empty하지 않으며
+    //maxHeap의 가장 큰 노드보다 minHeap의 가장 작은 노드가 더 크다면?
+    //SWAP
+    if(!maxHeap.empty() && !minHeap.empty() && !(maxHeap.top() <= minHeap.top())) {
+        int minH = minHeap.top();
+        int maxH = maxHeap.top();
+        
+        minHeap.pop();
+        maxHeap.pop();
+        
+        maxHeap.push(minH);
+        minHeap.push(maxH);
+    }
+    
+    return maxHeap.top();
+}   
+```
