@@ -19,6 +19,14 @@ c++문법 기반의 알고리즘 예제
 
 <hr/>
 
+**+) map 오름차순 정렬로 출력할 떄**  
+```
+ map<string, bool>:: reverse_iterator riter; //reverse_iterator
+for(riter = m.rbegin(); riter != m.rend(); riter++) { //rbegin(), rend()
+  cout<<riter->first<<"\n";
+}
+```
+
 #### 🤓라이브러리
 
 ✍🏻 [cmath](Grammar/cmath/cmath/main.cpp)
